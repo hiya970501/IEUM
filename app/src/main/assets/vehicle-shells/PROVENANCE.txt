@@ -1,0 +1,26 @@
+Afterglow vehicle exterior envelopes — provenance and limits
+Created 2026-11-05 by tools/generate-vehicle-shells.py. Original procedural geometry; CC0-1.0.
+These meshes are illustrative exterior envelopes, NOT manufacturer CAD, scans, or exact replicas.
+Body proportions use linked manufacturer examples of L/W/H/wheelbase; market/year/trim may differ.
+Roof, bonnet, door outlines, lamps, wheels and internal fit are authored design approximations.
+No manufacturer interior dimensions, installed equipment, extra seating rows, or vent locations are inferred.
+Unknown/detected vehicle and generic profiles use the same neutral concept envelope.
+The original licensed cabin.glb and its PBR materials remain separate and opaque; see cabin-LICENSE.txt.
+Base paint alpha .12, glass .035, roof .045; contours .34. Wheels use opaque satin materials.
+Y-up / front +Z / driver +X. All assets share original cabin source-space coordinates.
+interiorScale is visual fitting only, not measured vehicle cabin data.
+Manufacturer sources checked 2026-11-05:
+hyundai_ioniq5: https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/docs/Specification_Sheet_IONIQ5.pdf
+hyundai_ioniq6: https://www.hyundai.com/eu/en/models/ioniq-6/technical-data-downloads.html
+hyundai_ioniq9: https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-redefines-ev-mobility-with-ioniq-9-electric-suv-big-on-space-E28093-bigger-on-innovation-0000000870
+hyundai_kona: https://www.hyundai.com/contents/repn-car/catalog/kona-hybrid-catalog.pdf
+hyundai_nexo: https://www.hyundai.com/contents/repn-car/catalog/nexo-25fc_catalog.pdf
+hyundai_palisade: https://www.hyundai.com/contents/repn-car/catalog/the-all-new-palisade-hybrid-catalog.pdf
+kia_ev3: https://www.kia.com/kr/vehicles/ev3/specification/
+kia_ev6: https://www.kia.com/kr/vehicles/ev6/specification/
+kia_ev9: https://www.kia.com/kr/vehicles/ev9/specification/
+kia_pv5: https://www.kia.com/eu/pbv/vehicles/pv5-passenger/discover/
+kia_sportage: https://www.kia.ca/en/vehicles/sportage/ice/specs
+genesis_gv60: https://www.genesis.com/worldwide/en/models/gv60
+genesis_gv70: https://www.genesis.com/worldwide/en/models/gv70
+genesis_gv80: https://ownersmanual.genesis.com/full_webhelp/JX/2026/en_US/id87d78776593.html

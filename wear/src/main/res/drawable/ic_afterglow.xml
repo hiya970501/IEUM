@@ -1,0 +1,7 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Two joined paths: the person and vehicle remain distinct, connected at the centre. -->
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#A9EDD3"
+        android:strokeWidth="8" android:strokeLineCap="round" android:strokeLineJoin="round"
+        android:pathData="M48,37 L43,32 C37,26 27,30 27,39 L27,63 C27,72 37,77 44,70 L64,38 C71,31 81,36 81,45 L81,69 C81,78 71,82 65,76 L60,71" />
+</vector>

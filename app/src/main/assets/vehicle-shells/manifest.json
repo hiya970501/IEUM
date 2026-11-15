@@ -1,0 +1,1376 @@
+{
+  "version": 1,
+  "coordinateSystem": "Y_UP_FRONT_POSITIVE_Z",
+  "roadY": -0.3,
+  "geometry": "Original authored approximate exterior envelopes. Not OEM CAD. Shared concept interior.",
+  "normalization": {
+    "scale": 0.5,
+    "center": [
+      0,
+      0.55,
+      0
+    ]
+  },
+  "profiles": {
+    "generic": {
+      "asset": "vehicle-shells/generic.glb",
+      "name": "Common concept",
+      "style": "neutral_hatch",
+      "dimensionsMm": {
+        "length": 4655,
+        "width": 1890,
+        "height": 1605,
+        "wheelbase": 3000
+      },
+      "interiorScale": [
+        0.982242,
+        0.90775,
+        1.0
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": null,
+      "sourceSpaceBounds": {
+        "min": [
+          -0.945,
+          -0.3,
+          -2.3275
+        ],
+        "max": [
+          0.945,
+          1.305,
+          2.3275
+        ]
+      },
+      "bytes": 147288,
+      "triangles": 5018,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 147288,
+        "jsonBytes": 9824,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 137436,
+        "drawCalls": 15,
+        "triangles": 7754
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "detected_vehicle": {
+      "asset": "vehicle-shells/detected_vehicle.glb",
+      "name": "Unmapped detected vehicle",
+      "style": "neutral_hatch",
+      "dimensionsMm": {
+        "length": 4655,
+        "width": 1890,
+        "height": 1605,
+        "wheelbase": 3000
+      },
+      "interiorScale": [
+        0.982242,
+        0.90775,
+        1.0
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": null,
+      "sourceSpaceBounds": {
+        "min": [
+          -0.945,
+          -0.3,
+          -2.3275
+        ],
+        "max": [
+          0.945,
+          1.305,
+          2.3275
+        ]
+      },
+      "bytes": 147300,
+      "triangles": 5018,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 147300,
+        "jsonBytes": 9836,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 137436,
+        "drawCalls": 15,
+        "triangles": 7754
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "hyundai_ioniq5": {
+      "asset": "vehicle-shells/hyundai_ioniq5.glb",
+      "name": "Hyundai IONIQ 5",
+      "style": "angular_hatch",
+      "dimensionsMm": {
+        "length": 4655,
+        "width": 1890,
+        "height": 1605,
+        "wheelbase": 3000
+      },
+      "interiorScale": [
+        0.982242,
+        0.90775,
+        1.0
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.hyundai.com/content/dam/hyundai/au/en/models/ioniq5/docs/Specification_Sheet_IONIQ5.pdf",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.945,
+          -0.3,
+          -2.3275
+        ],
+        "max": [
+          0.945,
+          1.305,
+          2.3275
+        ]
+      },
+      "bytes": 150140,
+      "triangles": 5116,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 150140,
+        "jsonBytes": 9736,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 140376,
+        "drawCalls": 15,
+        "triangles": 7852
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "hyundai_ioniq6": {
+      "asset": "vehicle-shells/hyundai_ioniq6.glb",
+      "name": "Hyundai IONIQ 6",
+      "style": "streamliner",
+      "dimensionsMm": {
+        "length": 4925,
+        "width": 1880,
+        "height": 1495,
+        "wheelbase": 2950
+      },
+      "interiorScale": [
+        0.976693,
+        0.828502,
+        0.983333
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.hyundai.com/eu/en/models/ioniq-6/technical-data-downloads.html",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.94,
+          -0.3,
+          -2.4625
+        ],
+        "max": [
+          0.94,
+          1.195,
+          2.4625
+        ]
+      },
+      "bytes": 147248,
+      "triangles": 5018,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 147248,
+        "jsonBytes": 9784,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 137436,
+        "drawCalls": 15,
+        "triangles": 7754
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "hyundai_ioniq9": {
+      "asset": "vehicle-shells/hyundai_ioniq9.glb",
+      "name": "Hyundai IONIQ 9",
+      "style": "long_suv",
+      "dimensionsMm": {
+        "length": 5060,
+        "width": 1980,
+        "height": 1790,
+        "wheelbase": 3130
+      },
+      "interiorScale": [
+        1.032186,
+        1.041031,
+        1.043333
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-redefines-ev-mobility-with-ioniq-9-electric-suv-big-on-space-E28093-bigger-on-innovation-0000000870",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.99,
+          -0.3,
+          -2.53
+        ],
+        "max": [
+          0.99,
+          1.49,
+          2.53
+        ]
+      },
+      "bytes": 146152,
+      "triangles": 5020,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 146152,
+        "jsonBytes": 9732,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 136392,
+        "drawCalls": 15,
+        "triangles": 7756
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "hyundai_kona": {
+      "asset": "vehicle-shells/hyundai_kona.glb",
+      "name": "Hyundai KONA",
+      "style": "compact_crossover",
+      "dimensionsMm": {
+        "length": 4350,
+        "width": 1825,
+        "height": 1585,
+        "wheelbase": 2660
+      },
+      "interiorScale": [
+        0.946171,
+        0.893341,
+        0.886667
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.hyundai.com/contents/repn-car/catalog/kona-hybrid-catalog.pdf",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.9125,
+          -0.3,
+          -2.175
+        ],
+        "max": [
+          0.9125,
+          1.285,
+          2.175
+        ]
+      },
+      "bytes": 147468,
+      "triangles": 5036,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 147468,
+        "jsonBytes": 9800,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 137640,
+        "drawCalls": 15,
+        "triangles": 7772
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "hyundai_nexo": {
+      "asset": "vehicle-shells/hyundai_nexo.glb",
+      "name": "Hyundai NEXO",
+      "style": "angular_suv",
+      "dimensionsMm": {
+        "length": 4750,
+        "width": 1865,
+        "height": 1640,
+        "wheelbase": 2790
+      },
+      "interiorScale": [
+        0.968368,
+        0.932965,
+        0.93
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.hyundai.com/contents/repn-car/catalog/nexo-25fc_catalog.pdf",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.9325,
+          -0.3,
+          -2.375
+        ],
+        "max": [
+          0.9325,
+          1.3399999999999999,
+          2.375
+        ]
+      },
+      "bytes": 146632,
+      "triangles": 5010,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 146632,
+        "jsonBytes": 9792,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 136812,
+        "drawCalls": 15,
+        "triangles": 7746
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "hyundai_palisade": {
+      "asset": "vehicle-shells/hyundai_palisade.glb",
+      "name": "Hyundai PALISADE",
+      "style": "upright_suv",
+      "dimensionsMm": {
+        "length": 5060,
+        "width": 1980,
+        "height": 1805,
+        "wheelbase": 2970
+      },
+      "interiorScale": [
+        1.032186,
+        1.051837,
+        0.99
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.hyundai.com/contents/repn-car/catalog/the-all-new-palisade-hybrid-catalog.pdf",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.99,
+          -0.3,
+          -2.53
+        ],
+        "max": [
+          0.99,
+          1.505,
+          2.53
+        ]
+      },
+      "bytes": 145432,
+      "triangles": 5016,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 145432,
+        "jsonBytes": 9804,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 135600,
+        "drawCalls": 15,
+        "triangles": 7752
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "kia_ev3": {
+      "asset": "vehicle-shells/kia_ev3.glb",
+      "name": "Kia EV3",
+      "style": "compact_box",
+      "dimensionsMm": {
+        "length": 4300,
+        "width": 1850,
+        "height": 1560,
+        "wheelbase": 2680
+      },
+      "interiorScale": [
+        0.960044,
+        0.87533,
+        0.893333
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.kia.com/kr/vehicles/ev3/specification/",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.925,
+          -0.3,
+          -2.15
+        ],
+        "max": [
+          0.925,
+          1.26,
+          2.15
+        ]
+      },
+      "bytes": 146356,
+      "triangles": 5042,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 146356,
+        "jsonBytes": 9900,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 136428,
+        "drawCalls": 15,
+        "triangles": 7778
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "kia_ev6": {
+      "asset": "vehicle-shells/kia_ev6.glb",
+      "name": "Kia EV6",
+      "style": "sport_fastback",
+      "dimensionsMm": {
+        "length": 4695,
+        "width": 1880,
+        "height": 1550,
+        "wheelbase": 2900
+      },
+      "interiorScale": [
+        0.976693,
+        0.868126,
+        0.966667
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.kia.com/kr/vehicles/ev6/specification/",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.94,
+          -0.3,
+          -2.3475
+        ],
+        "max": [
+          0.94,
+          1.25,
+          2.3475
+        ]
+      },
+      "bytes": 147388,
+      "triangles": 5036,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 147388,
+        "jsonBytes": 9720,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 137640,
+        "drawCalls": 15,
+        "triangles": 7772
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "kia_ev9": {
+      "asset": "vehicle-shells/kia_ev9.glb",
+      "name": "Kia EV9",
+      "style": "large_box",
+      "dimensionsMm": {
+        "length": 5010,
+        "width": 1980,
+        "height": 1755,
+        "wheelbase": 3100
+      },
+      "interiorScale": [
+        1.032186,
+        1.015815,
+        1.033333
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.kia.com/kr/vehicles/ev9/specification/",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.99,
+          -0.3,
+          -2.505
+        ],
+        "max": [
+          0.99,
+          1.4549999999999998,
+          2.505
+        ]
+      },
+      "bytes": 146184,
+      "triangles": 5042,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 146184,
+        "jsonBytes": 9728,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 136428,
+        "drawCalls": 15,
+        "triangles": 7778
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "kia_pv5": {
+      "asset": "vehicle-shells/kia_pv5.glb",
+      "name": "Kia PV5 Passenger",
+      "style": "van",
+      "dimensionsMm": {
+        "length": 4695,
+        "width": 1895,
+        "height": 1923,
+        "wheelbase": 2995
+      },
+      "interiorScale": [
+        0.985017,
+        1.136849,
+        0.998333
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.kia.com/eu/pbv/vehicles/pv5-passenger/discover/",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.9475,
+          -0.3,
+          -2.3475
+        ],
+        "max": [
+          0.9475,
+          1.623,
+          2.3475
+        ]
+      },
+      "bytes": 139160,
+      "triangles": 4936,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 139160,
+        "jsonBytes": 9772,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 129360,
+        "drawCalls": 15,
+        "triangles": 7672
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "kia_sportage": {
+      "asset": "vehicle-shells/kia_sportage.glb",
+      "name": "Kia SPORTAGE",
+      "style": "crossover",
+      "dimensionsMm": {
+        "length": 4685,
+        "width": 1865,
+        "height": 1665,
+        "wheelbase": 2755
+      },
+      "interiorScale": [
+        0.968368,
+        0.950976,
+        0.918333
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.kia.ca/en/vehicles/sportage/ice/specs",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.9325,
+          -0.3,
+          -2.3425
+        ],
+        "max": [
+          0.9325,
+          1.365,
+          2.3425
+        ]
+      },
+      "bytes": 146880,
+      "triangles": 5028,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 146880,
+        "jsonBytes": 9836,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 137016,
+        "drawCalls": 15,
+        "triangles": 7764
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "genesis_gv60": {
+      "asset": "vehicle-shells/genesis_gv60.glb",
+      "name": "Genesis GV60",
+      "style": "coupe_crossover",
+      "dimensionsMm": {
+        "length": 4545,
+        "width": 1890,
+        "height": 1580,
+        "wheelbase": 2900
+      },
+      "interiorScale": [
+        0.982242,
+        0.889739,
+        0.966667
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.genesis.com/worldwide/en/models/gv60",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.945,
+          -0.3,
+          -2.2725
+        ],
+        "max": [
+          0.945,
+          1.28,
+          2.2725
+        ]
+      },
+      "bytes": 149340,
+      "triangles": 5072,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 149340,
+        "jsonBytes": 9824,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 139488,
+        "drawCalls": 15,
+        "triangles": 7808
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "genesis_gv70": {
+      "asset": "vehicle-shells/genesis_gv70.glb",
+      "name": "Genesis GV70",
+      "style": "luxury_suv",
+      "dimensionsMm": {
+        "length": 4715,
+        "width": 1910,
+        "height": 1630,
+        "wheelbase": 2875
+      },
+      "interiorScale": [
+        0.993341,
+        0.925761,
+        0.958333
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://www.genesis.com/worldwide/en/models/gv70",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.955,
+          -0.3,
+          -2.3575
+        ],
+        "max": [
+          0.955,
+          1.3299999999999998,
+          2.3575
+        ]
+      },
+      "bytes": 149776,
+      "triangles": 5062,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 149776,
+        "jsonBytes": 9840,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 139908,
+        "drawCalls": 15,
+        "triangles": 7798
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    },
+    "genesis_gv80": {
+      "asset": "vehicle-shells/genesis_gv80.glb",
+      "name": "Genesis GV80",
+      "style": "long_luxury_suv",
+      "dimensionsMm": {
+        "length": 4940,
+        "width": 1975,
+        "height": 1715,
+        "wheelbase": 2955
+      },
+      "interiorScale": [
+        1.029412,
+        0.986998,
+        0.985
+      ],
+      "interiorTranslation": [
+        0,
+        0,
+        0
+      ],
+      "source": "https://ownersmanual.genesis.com/full_webhelp/JX/2026/en_US/id87d78776593.html",
+      "sourceSpaceBounds": {
+        "min": [
+          -0.9875,
+          -0.3,
+          -2.47
+        ],
+        "max": [
+          0.9875,
+          1.415,
+          2.47
+        ]
+      },
+      "bytes": 147896,
+      "triangles": 5038,
+      "memoryBudget": {
+        "schemaVersion": 1,
+        "validated": true,
+        "glbBytes": 147896,
+        "jsonBytes": 9832,
+        "decodedTextureBytes": 0,
+        "mipmappedTextureBytes": 0,
+        "geometryBytes": 138036,
+        "drawCalls": 15,
+        "triangles": 7774
+      },
+      "exteriorPalette": {
+        "shell_paint_translucent": [
+          0.4,
+          0.59,
+          0.65,
+          1
+        ],
+        "shell_glass_translucent": [
+          0.3,
+          0.58,
+          0.66,
+          0.2916666666666667
+        ],
+        "shell_roof_translucent": [
+          0.46,
+          0.63,
+          0.68,
+          0.375
+        ],
+        "shell_contour": [
+          0.4,
+          0.62,
+          0.67,
+          2.8333333333333335
+        ],
+        "shell_detail": [
+          0.34,
+          0.51,
+          0.56,
+          1.8333333333333335
+        ]
+      },
+      "compatibility": {
+        "noSheen": true,
+        "noDraco": true,
+        "noMorphTargets": true,
+        "attributesValidated": true
+      }
+    }
+  }
+}

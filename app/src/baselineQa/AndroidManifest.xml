@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- QA source set only: shell-readable counters, no vehicle setters or payloads. -->
+        <provider
+            android:name="com.example.version1.BaselineQaDiagnosticsProvider"
+            android:authorities="${applicationId}.diagnostics"
+            android:exported="true"
+            android:grantUriPermissions="false"
+            android:readPermission="android.permission.DUMP"
+            android:writePermission="android.permission.DUMP" />
+    </application>
+</manifest>

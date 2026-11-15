@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Official Pleos Connect Dark Grayscale. See research/official-design-source/provenance.txt. -->
+    <color name="pleos_dark_basic_00">#131417</color>
+    <color name="pleos_dark_basic_50">#1D1E21</color>
+    <color name="pleos_dark_basic_100">#313236</color>
+    <color name="pleos_dark_basic_200">#44464E</color>
+    <color name="pleos_dark_basic_300">#686A72</color>
+    <color name="pleos_dark_basic_400">#A4A8AE</color>
+    <color name="pleos_dark_basic_500">#C7C9CE</color>
+    <color name="pleos_dark_basic_600">#E0E1E6</color>
+    <color name="pleos_dark_basic_700">#EDEEF2</color>
+    <color name="pleos_dark_basic_800">#F7F8FA</color>
+    <color name="pleos_dark_basic_900">#FFFFFF</color>
+    <!-- Implementation mapping to sp; official diagram does not label these as sp. -->
+    <dimen name="pleos_title_large">40sp</dimen>
+    <dimen name="pleos_title_medium">36sp</dimen>
+    <dimen name="pleos_title_small">32sp</dimen>
+    <dimen name="pleos_body_large">30sp</dimen>
+    <dimen name="pleos_body_medium">28sp</dimen>
+    <dimen name="pleos_body_small">26sp</dimen>
+    <dimen name="pleos_label_medium">24sp</dimen>
+    <dimen name="pleos_label_small">20sp</dimen>
+    <!-- Official FIG form_factor/connect-s design units mapped to dp in this demo. -->
+    <dimen name="pleos_button_medium_height">80dp</dimen>
+    <dimen name="pleos_button_medium_radius">24dp</dimen>
+    <dimen name="pleos_button_medium_padding_horizontal">32dp</dimen>
+    <dimen name="pleos_button_medium_padding_vertical">16dp</dimen>
+    <dimen name="pleos_button_large_height">100dp</dimen>
+    <dimen name="pleos_button_large_radius">32dp</dimen>
+    <dimen name="pleos_switch_width">80dp</dimen>
+    <dimen name="pleos_switch_height">48dp</dimen>
+    <dimen name="pleos_switch_knob">32dp</dimen>
+    <dimen name="pleos_switch_padding">8dp</dimen>
+    <dimen name="pleos_switch_radius">16dp</dimen>
+    <dimen name="pleos_switch_knob_radius">8dp</dimen>
+</resources>

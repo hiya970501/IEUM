@@ -1,0 +1,1186 @@
+{
+  "team": "IEUM",
+  "app": "IEUM",
+  "versionName": "1.4.0",
+  "versionCode": 15,
+  "releaseApk": "apk/IEUM_IEUM_release.apk",
+  "releaseSha256": "5bd1f44372c0116c659115c8616fc4d9f8d71167158909353fb79736fcdb2870",
+  "releaseBytes": 50853514,
+  "debugApkSha256": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+  "debugTestApkSha256": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+  "unitTests": 344,
+  "unitFailures": 0,
+  "unitErrors": 0,
+  "buildAndLintPassed": true,
+  "debugE2E": {
+    "started": "2026-11-14T14:58:10.9591632+09:00",
+    "deadline": null,
+    "apkSha256": "A1A80E25B6D77F79F385EF4C400FAF2251CF5AB2E0BF7DB3183556D326390BA8",
+    "testApkSha256": "47EACC267FC6A8B0BC9039944AE0F82F5B769363AAEE2BB77FD305DE6A2C0C5A",
+    "stages": [
+      {
+        "name": "controls",
+        "label": "submission-final-20261114-controls",
+        "started": "2026-11-14T14:58:11.3748440+09:00",
+        "finished": "2026-11-14T14:59:10.7733344+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "failure": null,
+          "scope": "Actual emulator mode apply/restore plus isolated home interlocks and public panel lifecycle; not physical vehicle or latency certification",
+          "expectedTests": 4,
+          "actualPassedTests": 4,
+          "stages": [
+            {
+              "passed": true,
+              "expected": 2,
+              "actualPassed": 2,
+              "name": "home"
+            },
+            {
+              "passed": true,
+              "expected": 1,
+              "actualPassed": 1,
+              "name": "mode"
+            },
+            {
+              "passed": true,
+              "expected": 1,
+              "actualPassed": 1,
+              "name": "reuse"
+            }
+          ],
+          "cleanupComplete": true,
+          "apkUnchanged": true,
+          "testApkUnchanged": true,
+          "physicalPhoneOrGpsVerified": false,
+          "actualAutomaticOffVehicleCycleVerified": true,
+          "appHash": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testHash": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "backgroundModeRestorationVerified": false,
+          "preparationBackgroundCancellationVerified": false,
+          "finished": "2026-11-14T14:59:10.7539499+09:00"
+        },
+        "failure": null
+      },
+      {
+        "name": "features",
+        "label": "submission-final-20261114-features",
+        "started": "2026-11-14T14:59:11.1375817+09:00",
+        "finished": "2026-11-14T15:00:36.0235037+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "failure": null,
+          "scope": "Synthetic owned stars/ordered encrypted DB and actual product survey, portable profile UI/QR capture, public-city weather network",
+          "expectedTests": 8,
+          "actualPassedTests": 8,
+          "stages": [
+            {
+              "passed": true,
+              "expected": 4,
+              "actualPassed": 4,
+              "name": "ratings-storage"
+            },
+            {
+              "passed": true,
+              "expected": 1,
+              "actualPassed": 1,
+              "name": "ratings-ui"
+            },
+            {
+              "passed": true,
+              "expected": 1,
+              "actualPassed": 1,
+              "name": "portable-storage"
+            },
+            {
+              "passed": true,
+              "expected": 1,
+              "actualPassed": 1,
+              "name": "portable-ui"
+            },
+            {
+              "passed": true,
+              "expected": 1,
+              "actualPassed": 1,
+              "name": "weather-public-city"
+            }
+          ],
+          "cleanupComplete": true,
+          "nativeCleanupComplete": true,
+          "ownedFixtureCleanupComplete": true,
+          "apkUnchanged": true,
+          "testApkUnchanged": true,
+          "physicalPhoneOrGpsVerified": false,
+          "actualAutomaticOffVehicleCycleVerified": false,
+          "appHash": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testHash": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "finished": "2026-11-14T15:00:36.0176219+09:00"
+        },
+        "failure": null
+      },
+      {
+        "name": "privacy",
+        "label": "submission-final-20261114-privacy",
+        "started": "2026-11-14T15:00:36.3798717+09:00",
+        "finished": "2026-11-14T15:00:55.5351480+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "scope": "Fresh SQLCipher mapping positive/negative control, owned synthetic encryption/migration/revocation fixtures",
+          "failure": null,
+          "expectedTests": 15,
+          "actualPassedTests": 15,
+          "stages": [
+            {
+              "passed": true,
+              "expected": 1,
+              "actualPassed": 1,
+              "name": "fresh-native-mapping"
+            },
+            {
+              "passed": true,
+              "expected": 12,
+              "actualPassed": 12,
+              "name": "protected-storage-revocation"
+            },
+            {
+              "passed": true,
+              "expected": 2,
+              "actualPassed": 2,
+              "name": "driver-directory-integrity"
+            }
+          ],
+          "cleanupComplete": true,
+          "apkUnchanged": true,
+          "testApkUnchanged": true,
+          "liveUserContentAudited": false,
+          "vehicleCommandsIssued": false,
+          "nativeRenderingVerified": false,
+          "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "localTestBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "installedTestBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "localTestAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "installedTestAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "finished": "2026-11-14T15:00:55.5237547+09:00"
+        },
+        "failure": null
+      },
+      {
+        "name": "resources",
+        "label": "submission-final-20261114-resources",
+        "started": "2026-11-14T15:00:55.8917164+09:00",
+        "finished": "2026-11-14T15:01:32.8646340+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "expectedTests": 2,
+          "actualTests": 2,
+          "failure": null,
+          "cleanupComplete": true,
+          "apkUnchanged": true,
+          "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "physicalCallOrOemSuspendVerified": false,
+          "systemVolumeChanged": false,
+          "helperSha256": "8EA633B68958427C8344293F836BC905BBE90F9C2F10CC3C238470B2E281D7DC",
+          "finished": "2026-11-14T15:01:32.8591692+09:00"
+        },
+        "failure": null
+      },
+      {
+        "name": "navigation",
+        "label": "submission-final-20261114-navigation",
+        "started": "2026-11-14T15:01:33.2368221+09:00",
+        "finished": "2026-11-14T15:01:56.1306336+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "scope": "Normal-display real preview before/after read-only menu audit",
+          "failure": null,
+          "cleanupComplete": true,
+          "apkUnchanged": true,
+          "testApkUnchanged": true,
+          "latencyGatePassed": null,
+          "physicalMillimetersVerified": false,
+          "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testLocalBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "testInstalledBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "observedNightModes": [
+            16
+          ],
+          "expectedUiMode": "Any",
+          "overThreeLines": 0,
+          "under48Dp": 0,
+          "nativeSubmissionAccountingChecked": true,
+          "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testLocalAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "testInstalledAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "finished": "2026-11-14T15:01:56.122267+09:00"
+        },
+        "failure": null
+      },
+      {
+        "name": "ime",
+        "label": "submission-final-20261114-ime",
+        "started": "2026-11-14T15:01:56.5093784+09:00",
+        "finished": "2026-11-14T15:02:10.3235196+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "scope": "Actual editor keyboard visibility, public inline back/focus restoration, harmless secure native fixture; no vehicle commands",
+          "failure": null,
+          "cleanupComplete": true,
+          "apkUnchanged": true,
+          "testApkUnchanged": true,
+          "latencyGatePassed": null,
+          "physicalMillimetersVerified": false,
+          "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testLocalBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "testInstalledBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "failedChecks": [],
+          "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testLocalAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "testInstalledAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "finished": "2026-11-14T15:02:10.3195245+09:00"
+        },
+        "failure": null
+      },
+      {
+        "name": "projection",
+        "label": "submission-final-20261114-projection",
+        "started": "2026-11-14T15:02:10.6868377+09:00",
+        "finished": "2026-11-14T15:02:39.1958406+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "scope": "Streaming thermal metadata equals legacy full JSON on all installed GLBs and exclusion fixtures; no rendering or memory saving claim",
+          "failure": null,
+          "cleanupComplete": true,
+          "apkUnchanged": true,
+          "testApkUnchanged": true,
+          "latencyGatePassed": null,
+          "physicalMillimetersVerified": false,
+          "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testLocalBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "testInstalledBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "actualVehicleInputs": 17,
+          "thermalInputs": 13,
+          "accessors": 29688,
+          "retainedAccessors": 533,
+          "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "testLocalAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "testInstalledAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "finished": "2026-11-14T15:02:39.1932894+09:00"
+        },
+        "failure": null
+      },
+      {
+        "name": "gps",
+        "label": "submission-final-20261114-gps",
+        "started": "2026-11-14T15:02:39.5695108+09:00",
+        "finished": "2026-11-14T15:03:44.5622621+09:00",
+        "exitCode": 0,
+        "result": {
+          "passed": true,
+          "syntheticPlatformProvider": true,
+          "physicalGpsVerified": false,
+          "systemGpsProviderModified": false,
+          "appOpBefore": "deny",
+          "testAppOpBefore": "default",
+          "appOpRestored": true,
+          "runtimePermissionsRestored": true,
+          "cleanupComplete": true,
+          "apkUnchanged": true,
+          "testApkUnchanged": true,
+          "failure": null,
+          "appSha256": "A1A80E25B6D77F79F385EF4C400FAF2251CF5AB2E0BF7DB3183556D326390BA8",
+          "testSha256": "47EACC267FC6A8B0BC9039944AE0F82F5B769363AAEE2BB77FD305DE6A2C0C5A",
+          "installedAppBeforeSha256": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedTestBeforeSha256": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "mockPolicyComparison": "Effective policy; platform mock-location default is deny and Android can elide explicit denied entries",
+          "localAppAfterSha256": "A1A80E25B6D77F79F385EF4C400FAF2251CF5AB2E0BF7DB3183556D326390BA8",
+          "localTestAfterSha256": "47EACC267FC6A8B0BC9039944AE0F82F5B769363AAEE2BB77FD305DE6A2C0C5A",
+          "installedAppAfterSha256": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+          "installedTestAfterSha256": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+          "finished": "2026-11-14T15:03:44.5504478+09:00"
+        },
+        "failure": null
+      }
+    ],
+    "allRequestedStagesCompleted": true,
+    "failure": null,
+    "scope": "Sequential owned emulator regressions; not physical hardware or full policy certification",
+    "requestedStages": [
+      "controls",
+      "features",
+      "privacy",
+      "resources",
+      "navigation",
+      "ime",
+      "projection",
+      "gps"
+    ],
+    "startAt": "controls",
+    "endAt": "gps",
+    "finished": "2026-11-14T15:03:44.5667811+09:00"
+  },
+  "touchDiagnostic": {
+    "passed": true,
+    "failure": null,
+    "scope": "Ordinary app: actual public OS event DOWN to settings content commit and home restoration commit; includes queueing/hold, no accessibility polling in measured interval; separate from strict accessible-content gate",
+    "inputAnchor": "DOWN",
+    "doesNotReplaceStartupOrAccessibilityGate": true,
+    "physicalScanoutVerified": false,
+    "actualPreviewPresented": true,
+    "samples": [
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 0,
+        "committedUptimeMs": 5181923,
+        "downToContentCommitMs": 98,
+        "operation": "openSettings",
+        "downUptimeMs": 5181825
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 0,
+        "committedUptimeMs": 5185310,
+        "downToContentCommitMs": 59,
+        "operation": "closeSettings",
+        "downUptimeMs": 5185251
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 1,
+        "committedUptimeMs": 5191047,
+        "downToContentCommitMs": 53,
+        "operation": "openSettings",
+        "downUptimeMs": 5190994
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 1,
+        "committedUptimeMs": 5193948,
+        "downToContentCommitMs": 57,
+        "operation": "closeSettings",
+        "downUptimeMs": 5193891
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 2,
+        "committedUptimeMs": 5199602,
+        "downToContentCommitMs": 76,
+        "operation": "openSettings",
+        "downUptimeMs": 5199526
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 2,
+        "committedUptimeMs": 5202515,
+        "downToContentCommitMs": 38,
+        "operation": "closeSettings",
+        "downUptimeMs": 5202477
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 3,
+        "committedUptimeMs": 5208296,
+        "downToContentCommitMs": 47,
+        "operation": "openSettings",
+        "downUptimeMs": 5208249
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 3,
+        "committedUptimeMs": 5211540,
+        "downToContentCommitMs": 48,
+        "operation": "closeSettings",
+        "downUptimeMs": 5211492
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 4,
+        "committedUptimeMs": 5217055,
+        "downToContentCommitMs": 58,
+        "operation": "openSettings",
+        "downUptimeMs": 5216997
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 4,
+        "committedUptimeMs": 5220214,
+        "downToContentCommitMs": 38,
+        "operation": "closeSettings",
+        "downUptimeMs": 5220176
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 5,
+        "committedUptimeMs": 5225695,
+        "downToContentCommitMs": 56,
+        "operation": "openSettings",
+        "downUptimeMs": 5225639
+      },
+      {
+        "metric": "actualDownToContentCommitMs",
+        "within250": true,
+        "trial": 5,
+        "committedUptimeMs": 5228648,
+        "downToContentCommitMs": 33,
+        "operation": "closeSettings",
+        "downUptimeMs": 5228615
+      }
+    ],
+    "apkUnchanged": true,
+    "cleanupComplete": true,
+    "perfettoDiagnosticEnabled": false,
+    "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "pid": "5705",
+    "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "finished": "2026-11-14T15:05:27.3667177+09:00"
+  },
+  "accessibleGate": {
+    "passed": false,
+    "scope": "Real injected touch DOWN to accessible settings content; includes hold/poll overhead; not physical scanout",
+    "failure": "Actual touch-to-content 250 ms gate failed; functional test completion alone is not a latency pass",
+    "cleanupComplete": true,
+    "apkUnchanged": true,
+    "testApkUnchanged": true,
+    "latencyGatePassed": false,
+    "physicalMillimetersVerified": false,
+    "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "testLocalBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "testInstalledBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "actualSamples": 12,
+    "maxTouchToAccessibleContentMs": 265.0,
+    "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "testLocalAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "testInstalledAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "finished": "2026-11-14T15:05:54.2712748+09:00"
+  },
+  "night": {
+    "passed": true,
+    "scope": "Normal-display real preview before/after read-only menu audit",
+    "failure": null,
+    "cleanupComplete": true,
+    "apkUnchanged": true,
+    "testApkUnchanged": true,
+    "latencyGatePassed": null,
+    "physicalMillimetersVerified": false,
+    "localBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "installedBefore": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "testLocalBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "testInstalledBefore": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "observedNightModes": [
+      32
+    ],
+    "expectedUiMode": "Night",
+    "overThreeLines": 0,
+    "under48Dp": 0,
+    "nativeSubmissionAccountingChecked": true,
+    "inkRecords": 280,
+    "inkBelowThreeMmProxy": 0,
+    "inkBelow18Px": 0,
+    "ellipsizedTextRecords": 0,
+    "minimumInkHeightPx": 19.0,
+    "contrastKnownRecords": 280,
+    "contrastUnknownRecords": 0,
+    "contrastBelowInternal45Floor": 0,
+    "contrastMinimumRatio": 7.727763678662906,
+    "contrastScope": "Three actual background-drawable samples per visible text; official 4.5 floor, unknown compositions reported; not full pixel/panel certification",
+    "iconTintKnownRecords": 1,
+    "iconTintUnknownRecords": 0,
+    "iconTintBelow45Floor": 0,
+    "iconTintMinimumRatio": 13.806661275107219,
+    "iconTintScope": "Actual solid vector tint/background proxy only; no image pixels/QR read, complex image and 3D contrast remains unverified",
+    "pressedContrastKnownRecords": 126,
+    "pressedContrastMinimumRatio": 5.100972701775246,
+    "pressedContrastUnknownOrBelow45": 0,
+    "focusedContrastKnownRecords": 126,
+    "focusedContrastMinimumRatio": 5.100972701775246,
+    "focusedContrastUnknownOrBelow45": 0,
+    "localAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "installedAfter": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "testLocalAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "testInstalledAfter": "47eacc267fc6a8b0bc9039944ae0f82f5b769363aaee2bb77fd305de6a2c0c5a",
+    "finished": "2026-11-14T15:08:11.2395080+09:00"
+  },
+  "memory": {
+    "mode": "ColdLoads",
+    "scenarioLabel": "final submission source - local Ioniq5 reference",
+    "serial": "emulator-5554",
+    "androidUser": 10,
+    "package": "com.example.version1",
+    "hardLimitBytes": 400000000,
+    "workingTargetBytes": 335544320,
+    "validRssSamples": 37,
+    "validDetailedSamples": 10,
+    "invalidActiveSamples": 0,
+    "scenarioFailures": 0,
+    "memoryGuardBlockedScenarios": 0,
+    "nativeCrashScenarios": 0,
+    "pidReplacementScenarios": 0,
+    "runtimeFailureScenarios": 0,
+    "systemRestartScenarios": 0,
+    "runSystemServerBefore": "760",
+    "runSystemServerAfter": "760",
+    "batchSystemUnchanged": true,
+    "detailedTimeoutSeconds": 3,
+    "visualFailureScenarios": 0,
+    "readinessGatePassed": true,
+    "observedMaxRssBytes": 262119424,
+    "observedMaxTotalPssBytes": 145373184,
+    "observedMaxDumpsysRssBytes": 266375168,
+    "observedMaxPssPlusKnownSwapBytes": 145373184,
+    "lifetimeResidentHighWaterBytes": 268853248,
+    "observedCurrentMaxBytes": 266375168,
+    "currentHardLimitExceeded": false,
+    "lifetimeRssHighWaterExceeded": false,
+    "workingTargetExceeded": false,
+    "memoryEvidenceWithinLimit": true,
+    "installedApkBeforeSha256": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "installedApkAfterSha256": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "localApkBeforeSha256": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "localApkAfterSha256": "a1a80e25b6d77f79f385ef4c400faf2251cf5ab2e0bf7db3183556d326390ba8",
+    "apkUnchanged": true,
+    "conservativeHardGatePassed": true,
+    "originalPreferencesRestored": true,
+    "originalAppRelaunched": true,
+    "failure": null,
+    "restoreFailure": null,
+    "scenarios": [
+      {
+        "name": "hyundai_ioniq5_ne",
+        "targetAssetId": "hyundai_ioniq5_ne",
+        "latestReadyAssetId": "hyundai_ioniq5_ne",
+        "modelReady": true,
+        "elapsedSeconds": 26.4257598,
+        "processSeen": true,
+        "processLost": false,
+        "detailedLimitObserved": false,
+        "memoryGuardBlocked": false,
+        "memoryGuardReason": "",
+        "visualFailure": false,
+        "visualFailureReason": "",
+        "finalVisualFailure": false,
+        "newVisualFailureLines": [],
+        "latestReadyLogIndex": 4276,
+        "latestFailureLogIndex": -1,
+        "firstMainPid": 14753,
+        "lastMainPid": 14753,
+        "mainPidReplaced": false,
+        "nativeCrashCheckComplete": true,
+        "nativeCrashDetected": false,
+        "runtimeFailureDetected": false,
+        "runtimeFailureEvents": [],
+        "systemServerChanged": false,
+        "systemServerBefore": "760",
+        "systemServerAfter": "760",
+        "nativeCrashSignals": []
+      }
+    ],
+    "staticProfiles": [
+      {
+        "assetId": "hyundai_ioniq5_ne",
+        "fileBytes": 3597160,
+        "memoryBudget": {
+          "schemaVersion": 1,
+          "validated": true,
+          "glbBytes": 3597160,
+          "jsonBytes": 636076,
+          "decodedTextureBytes": 4178688,
+          "mipmappedTextureBytes": 5570832,
+          "geometryBytes": 2218340,
+          "drawCalls": 674,
+          "triangles": 107760
+        },
+        "glbSha256": "473091d67b8d2d441059b2f7a0dcea87102b7fae88c72da44895c2dffb358198",
+        "staticGatePassed": true
+      }
+    ],
+    "warnings": [
+      "RSS clock source is wall_epoch_seconds; sample index is monotonic, wall time has only whole-second resolution."
+    ],
+    "caveats": [
+      "Sampling cannot prove every instantaneous peak, especially GPU allocations.",
+      "VmHWM is lifetime resident high-water and may include history before Observe; it is reported separately, not used as current admission memory.",
+      "For several processes, summed individual VmHWM values are conservative and need not have occurred simultaneously.",
+      "RSS includes shared resident pages; PSS apportions sharing and can include driver mtrack. Do not add Graphics/GL to TOTAL PSS again.",
+      "Missing graphics counters mean unsupported/unknown, not zero. Device/driver behavior must be verified on target hardware.",
+      "500ms is the requested device interval; ps/cat work adds latency. Device clock source and monotonic sample index are recorded explicitly.",
+      "When /proc/uptime is denied, device wall epoch has whole-second resolution and can jump; requestedElapsedMs is scheduling intent, not measured elapsed time. RSS hostUtc is unknown.",
+      "Static asset caps plus runtime admission/release are required in addition to measured samples."
+    ],
+    "primarySources": [
+      "https://document.pleos.ai/en/docs/pleos-only/vehicle-app-planning-guide/performance-resource-mgmt",
+      "https://document.pleos.ai/en/docs/pleos-only/vehicle-app-developer-guide/app-runtime-environment-resources-guide/app-performance-platform-identify",
+      "https://developer.android.com/tools/dumpsys#meminfo",
+      "https://developer.android.com/reference/android/os/Debug.MemoryInfo",
+      "https://docs.kernel.org/filesystems/proc.html"
+    ],
+    "pleosDefinition": "Official docs state RAM<=400MB without defining PSS/RSS, GPU accounting or MB/MiB; decimal400,000,000B is this project conservative policy."
+  },
+  "parkedInitialCpu": {
+    "scenario": "parked",
+    "pid": 19841,
+    "clockTicksPerSecond": 100,
+    "guestElapsedSeconds": 11.800000000000182,
+    "method": "Whole thread-group utime+stime delta / guest uptime (two sequential ADB reads, subject to sampling skew), 100% equals one fully used logical CPU; excludes emulator host/system processes",
+    "averageCpuPercent": 33.728813559321516,
+    "maxIntervalCpuPercent": 73.55371900826225,
+    "averageWithinGuideline": false,
+    "intervalsWithinGuideline": false,
+    "cpuCeilingPercent": 25.0,
+    "maxRssBytes": 263520256.0,
+    "maxHwmBytes": 272916480.0,
+    "samples": [
+      {
+        "guestUptime": 5439.91,
+        "cpuTicks": 348,
+        "startTicks": 543454,
+        "rssBytes": 199766016,
+        "hwmBytes": 199766016
+      },
+      {
+        "guestUptime": 5441.12,
+        "cpuTicks": 434,
+        "startTicks": 543454,
+        "rssBytes": 249516032,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5442.33,
+        "cpuTicks": 523,
+        "startTicks": 543454,
+        "rssBytes": 261451776,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5443.53,
+        "cpuTicks": 602,
+        "startTicks": 543454,
+        "rssBytes": 255475712,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5444.73,
+        "cpuTicks": 684,
+        "startTicks": 543454,
+        "rssBytes": 258777088,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5445.89,
+        "cpuTicks": 727,
+        "startTicks": 543454,
+        "rssBytes": 262955008,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5447.05,
+        "cpuTicks": 729,
+        "startTicks": 543454,
+        "rssBytes": 263217152,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5448.22,
+        "cpuTicks": 736,
+        "startTicks": 543454,
+        "rssBytes": 263278592,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5449.39,
+        "cpuTicks": 738,
+        "startTicks": 543454,
+        "rssBytes": 263278592,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5450.54,
+        "cpuTicks": 743,
+        "startTicks": 543454,
+        "rssBytes": 263520256,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5451.71,
+        "cpuTicks": 746,
+        "startTicks": 543454,
+        "rssBytes": 263520256,
+        "hwmBytes": 272916480
+      }
+    ],
+    "intervalCpuPercent": [
+      71.07438016528712,
+      73.55371900826225,
+      65.83333333334332,
+      68.33333333334369,
+      37.06896551721697,
+      1.7241379310346991,
+      5.982905982905611,
+      1.7094017094016032,
+      4.347826086957897,
+      2.5641025641024044
+    ],
+    "physicalVehicleVerified": false
+  },
+  "driving": {
+    "passed": true,
+    "physicalVehicle": false,
+    "speedKph": 20,
+    "fixtureRestored": true,
+    "failure": null,
+    "restoreFailure": null,
+    "apkSha256": "A1A80E25B6D77F79F385EF4C400FAF2251CF5AB2E0BF7DB3183556D326390BA8",
+    "appStillVisible": true,
+    "settingsModalClosed": true,
+    "settingsDisabledOrPlatformBlocked": true,
+    "pendingRestorationStillEmpty": true,
+    "noticeSingleLineText": true,
+    "noticeGroupCentered": true,
+    "noticeContainerRole": "android.widget.LinearLayout",
+    "noticeContainerBounds": "[1409,639][1979,751]",
+    "appBounds": "[853,90][2535,1300]",
+    "appAccessibilityLayoutVerified": true,
+    "layoutEvidenceScope": "Accessible app-node geometry only; OEM overlays can obscure these nodes in final pixels",
+    "visualInspectionComplete": false,
+    "cpuAverageWithinGuideline": true,
+    "cpuIntervalsWithinGuideline": true
+  },
+  "drivingCpu": {
+    "scenario": "restricted",
+    "pid": 19841,
+    "clockTicksPerSecond": 100,
+    "guestElapsedSeconds": 35.160000000000764,
+    "method": "Whole thread-group utime+stime delta / guest uptime (two sequential ADB reads, subject to sampling skew), 100% equals one fully used logical CPU; excludes emulator host/system processes",
+    "averageCpuPercent": 0.8816837315130639,
+    "maxIntervalCpuPercent": 1.7391304347831589,
+    "averageWithinGuideline": true,
+    "intervalsWithinGuideline": true,
+    "cpuCeilingPercent": 5.0,
+    "maxRssBytes": 239632384.0,
+    "maxHwmBytes": 272916480.0,
+    "samples": [
+      {
+        "guestUptime": 5466.98,
+        "cpuTicks": 814,
+        "startTicks": 543454,
+        "rssBytes": 239157248,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5468.17,
+        "cpuTicks": 814,
+        "startTicks": 543454,
+        "rssBytes": 239157248,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5469.36,
+        "cpuTicks": 816,
+        "startTicks": 543454,
+        "rssBytes": 239157248,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5470.51,
+        "cpuTicks": 817,
+        "startTicks": 543454,
+        "rssBytes": 239157248,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5471.69,
+        "cpuTicks": 817,
+        "startTicks": 543454,
+        "rssBytes": 239157248,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5472.86,
+        "cpuTicks": 819,
+        "startTicks": 543454,
+        "rssBytes": 239394816,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5474.0,
+        "cpuTicks": 819,
+        "startTicks": 543454,
+        "rssBytes": 239394816,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5475.17,
+        "cpuTicks": 821,
+        "startTicks": 543454,
+        "rssBytes": 239394816,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5476.34,
+        "cpuTicks": 821,
+        "startTicks": 543454,
+        "rssBytes": 239394816,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5477.49,
+        "cpuTicks": 823,
+        "startTicks": 543454,
+        "rssBytes": 239394816,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5478.66,
+        "cpuTicks": 823,
+        "startTicks": 543454,
+        "rssBytes": 239632384,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5479.84,
+        "cpuTicks": 825,
+        "startTicks": 543454,
+        "rssBytes": 229212160,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5481.01,
+        "cpuTicks": 826,
+        "startTicks": 543454,
+        "rssBytes": 229212160,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5482.18,
+        "cpuTicks": 827,
+        "startTicks": 543454,
+        "rssBytes": 229212160,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5483.35,
+        "cpuTicks": 828,
+        "startTicks": 543454,
+        "rssBytes": 229216256,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5484.5,
+        "cpuTicks": 830,
+        "startTicks": 543454,
+        "rssBytes": 229216256,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5485.68,
+        "cpuTicks": 831,
+        "startTicks": 543454,
+        "rssBytes": 229453824,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5486.83,
+        "cpuTicks": 831,
+        "startTicks": 543454,
+        "rssBytes": 229453824,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5487.99,
+        "cpuTicks": 833,
+        "startTicks": 543454,
+        "rssBytes": 229453824,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5489.16,
+        "cpuTicks": 833,
+        "startTicks": 543454,
+        "rssBytes": 229453824,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5490.34,
+        "cpuTicks": 835,
+        "startTicks": 543454,
+        "rssBytes": 229695488,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5491.54,
+        "cpuTicks": 836,
+        "startTicks": 543454,
+        "rssBytes": 229695488,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5492.75,
+        "cpuTicks": 837,
+        "startTicks": 543454,
+        "rssBytes": 229695488,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5493.92,
+        "cpuTicks": 838,
+        "startTicks": 543454,
+        "rssBytes": 229695488,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5495.11,
+        "cpuTicks": 839,
+        "startTicks": 543454,
+        "rssBytes": 229695488,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5496.3,
+        "cpuTicks": 840,
+        "startTicks": 543454,
+        "rssBytes": 229695488,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5497.47,
+        "cpuTicks": 841,
+        "startTicks": 543454,
+        "rssBytes": 229949440,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5498.64,
+        "cpuTicks": 842,
+        "startTicks": 543454,
+        "rssBytes": 229949440,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5499.81,
+        "cpuTicks": 843,
+        "startTicks": 543454,
+        "rssBytes": 229949440,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5500.97,
+        "cpuTicks": 844,
+        "startTicks": 543454,
+        "rssBytes": 229142528,
+        "hwmBytes": 272916480
+      },
+      {
+        "guestUptime": 5502.14,
+        "cpuTicks": 845,
+        "startTicks": 543454,
+        "rssBytes": 229142528,
+        "hwmBytes": 272916480
+      }
+    ],
+    "intervalCpuPercent": [
+      0.0,
+      1.6806722689081282,
+      0.8695652173908918,
+      0.0,
+      1.7094017094016032,
+      0.0,
+      1.7094017094016032,
+      0.0,
+      1.7391304347831589,
+      0.0,
+      1.6949152542368702,
+      0.8547008547008016,
+      0.8547008547008016,
+      0.8547008547008016,
+      1.7391304347831589,
+      0.8474576271184351,
+      0.0,
+      1.7241379310346991,
+      0.0,
+      1.6949152542368702,
+      0.8333333333334596,
+      0.8264462809917107,
+      0.8547008547008016,
+      0.8403361344540641,
+      0.8403361344534218,
+      0.8547008547008016,
+      0.8547008547008016,
+      0.8547008547008016,
+      0.8620689655173496,
+      0.8547008547008016
+    ],
+    "physicalVehicleVerified": false
+  },
+  "exactSignedRelease": {
+    "passed": true,
+    "apkSha256": "5bd1f44372c0116c659115c8616fc4d9f8d71167158909353fb79736fcdb2870",
+    "physicalVehicle": false,
+    "scope": "Exact signed release; clean isolated Pleos 2.1.0 AVD, bundled licensed cabin; not developer Ioniq5 or hardware certification",
+    "stages": [
+      {
+        "stage": "clean-avd-boot-and-P",
+        "passed": true
+      },
+      {
+        "stage": "exact-signed-release-install",
+        "passed": true
+      },
+      {
+        "stage": "release-main-P-and-3D",
+        "passed": true
+      },
+      {
+        "stage": "release-face",
+        "passed": true,
+        "actual": {
+          "driver_direction": 1,
+          "fan": 1,
+          "driver_temp": 22,
+          "driver_seat": 0
+        },
+        "scene": "차량 실내 3D 미리보기. 운전석 설정 온도 22.0도, 풍량 1, 열선 0, 통풍 0, 냉각 0, 핸들 열선 0, 송풍 얼굴. 드래그하여 회전. 두 번 탭하여 시점 초기화."
+      },
+      {
+        "stage": "release-floor",
+        "passed": true,
+        "actual": {
+          "driver_direction": 2,
+          "fan": 5,
+          "driver_temp": 28,
+          "driver_seat": 3
+        },
+        "scene": "차량 실내 3D 미리보기. 운전석 설정 온도 28.0도, 풍량 5, 열선 3, 통풍 0, 냉각 0, 핸들 열선 0, 송풍 발밑. 드래그하여 회전. 두 번 탭하여 시점 초기화."
+      },
+      {
+        "stage": "release-cool",
+        "passed": true,
+        "actual": {
+          "driver_direction": 3,
+          "fan": 5,
+          "driver_temp": 18,
+          "driver_seat": -3
+        },
+        "scene": "차량 실내 3D 미리보기. 운전석 설정 온도 18.0도, 풍량 5, 열선 0, 통풍 0, 냉각 3, 핸들 열선 0, 송풍 얼굴+발밑. 드래그하여 회전. 두 번 탭하여 시점 초기화."
+      },
+      {
+        "stage": "release-windshield",
+        "passed": true,
+        "actual": {
+          "driver_direction": 4,
+          "fan": 5,
+          "driver_temp": 22,
+          "driver_seat": 0
+        },
+        "scene": "차량 실내 3D 미리보기. 운전석 설정 온도 22.0도, 풍량 5, 열선 0, 통풍 0, 냉각 0, 핸들 열선 0, 송풍 앞유리. 드래그하여 회전. 두 번 탭하여 시점 초기화."
+      },
+      {
+        "stage": "release-floor-windshield",
+        "passed": true,
+        "actual": {
+          "driver_direction": 6,
+          "fan": 6,
+          "driver_temp": 22,
+          "driver_seat": 0
+        },
+        "scene": "차량 실내 3D 미리보기. 운전석 설정 온도 22.0도, 풍량 6, 열선 0, 통풍 0, 냉각 0, 핸들 열선 0, 송풍 발밑+앞유리. 드래그하여 회전. 두 번 탭하여 시점 초기화."
+      },
+      {
+        "stage": "release-automatic-ON",
+        "passed": true
+      },
+      {
+        "stage": "release-automatic-OFF-restoration",
+        "passed": true
+      }
+    ],
+    "ownedHostLauncherPid": 18448,
+    "userId": 10,
+    "hvacConsoleMode": "subscribe_hvac_base (official console Enabled option)",
+    "onlineBefore": "0-1",
+    "processorCountBefore": 2,
+    "firstObservedReadyUpperBoundMs": 15625,
+    "pid": 7478,
+    "onlineAfter": "0-1",
+    "processorCountAfter": 2,
+    "traceSha256": "96482a35b8eec916bcba916891659600999090a4f15fb276240dfeaefff8f259",
+    "coldCpu": {
+      "validTrace": true,
+      "completeOneSecondWindows": 57,
+      "peakOneCorePercent": 72.269,
+      "peakCapacityContextPercent": 36.1345,
+      "processorCount": 2,
+      "oneCore25Passed": false,
+      "capacityContext25Passed": false,
+      "scope": "Process birth aligned 1s peaks over first60s; capacity context is not an official denominator"
+    },
+    "pssBytes": 112073728,
+    "rssBytes": 187039744,
+    "swapPssBytes": 35253248,
+    "sampledMemoryWithin400MB": true,
+    "ownedAvdShutdownRequested": true
+  },
+  "policyCounts": {
+    "충족": 10,
+    "부분": 10,
+    "외부 확인": 2,
+    "미충족": 3,
+    "해당 없음": 1
+  },
+  "scope": "Self assessment within measured emulator/source scope, not certification. Debug+private Ioniq5 and signed release+bundled licensed cabin are distinct.",
+  "excluded": [
+    "private signing keys",
+    "runtime secrets",
+    "health records",
+    "private manufacturer research models",
+    "phone/watch APKs"
+  ],
+  "officialSubmissionGuide": "https://appdevchallenge.auto-hmg.io/guide/submission#files",
+  "exportedSourceBuild": {
+    "passed": true,
+    "assembleReleaseOffline": true,
+    "copiedSourceFilesVerified": 351,
+    "unsignedOriginalSha256": "06d79f33454b7270eb7037475f0c54dce92f833694d8d51050edce96ee50f7cb",
+    "unsignedRebuiltSha256": "eb724c94f2b629254d1b096434f08d1d8be8ccdb1b1e33377617cbcbf05a2ed5",
+    "unsignedBytesIdentical": false,
+    "scope": "Clean exported source Gradle build; private local.properties not distributed",
+    "differingArchiveEntries": [
+      "lib/arm64-v8a/libafterglow_memory.so",
+      "lib/armeabi-v7a/libafterglow_memory.so",
+      "lib/x86/libafterglow_memory.so",
+      "lib/x86_64/libafterglow_memory.so"
+    ],
+    "allDexEntriesIdentical": true
+  }
+}

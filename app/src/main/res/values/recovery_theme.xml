@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.Recovery" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">@font/asta_sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:colorAccent">#146343</item>
+        <item name="android:colorError">#795000</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>

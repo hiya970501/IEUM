@@ -1,0 +1,86 @@
+{
+  "source": "Licensed generic reference cabin and authored Afterglow outlet effects",
+  "localReferenceOnly": false,
+  "memoryBudget": {
+    "schemaVersion": 1,
+    "validated": true,
+    "glbBytes": 277688,
+    "jsonBytes": 66644,
+    "decodedTextureBytes": 0,
+    "mipmappedTextureBytes": 0,
+    "geometryBytes": 211014,
+    "drawCalls": 211,
+    "triangles": 39473
+  },
+  "previewGlbSha256": "64d388ff114b7b6d1410d27862c1f616046ff8dc26f7e3bd87290fa59379be0c",
+  "optimization": {
+    "sourceGlbSha256": "64963afddd6a98f2d1471db7a135e35c6eeee08dcb5fc5a5245049d95a6d8e59",
+    "static": true,
+    "sourceCopyrightPreserved": true,
+    "geometryCompression": "none",
+    "quantization": "none",
+    "sourceNormalsPreserved": true,
+    "tangents": "offline MikkTSpace",
+    "simplified": false,
+    "errorLimit": 0,
+    "attributeAwareSimplification": false,
+    "sourceStats": {
+      "nodes": 77,
+      "drawCalls": 226,
+      "triangles": 76045,
+      "geometryBytes": 1886298
+    },
+    "afterPrune": {
+      "nodes": 67,
+      "drawCalls": 211,
+      "triangles": 39473,
+      "geometryBytes": 211230
+    },
+    "optimizedStats": {
+      "nodes": 67,
+      "drawCalls": 211,
+      "triangles": 39473,
+      "geometryBytes": 211014
+    },
+    "textureMaximumDimension": 512,
+    "textureBudgetBytes": 0,
+    "textureImages": [],
+    "materialRepairs": [],
+    "repairedZeroNormals": 0,
+    "checks": {
+      "allAttributesFinite": true,
+      "allAttributeCountsMatch": true,
+      "allTriangleIndicesInRange": true,
+      "noMorphTargets": true,
+      "noAnimations": true,
+      "noOrphanNodes": true
+    },
+    "independentValidation": {
+      "budgetMatchesActualBytes": true,
+      "allImagesAtMost512": true,
+      "noUnusedMeshesMaterialsImages": true,
+      "noMorphTargetsAnimations": true,
+      "handednessWrapperAndWorldPlacementPreserved": false,
+      "quantizedWorldBoundsWithin2mm": false
+    }
+  },
+  "binarySha256": "7040c99ce083ea08b69949249f28adc25eb0bcf12bfe79005ad712801bd4d792",
+  "exteriorPalette": {},
+  "compatibility": {
+    "noSheen": true,
+    "noDraco": true,
+    "noMorphTargets": true,
+    "attributesValidated": true
+  },
+  "textureAccounting": {
+    "version": 2,
+    "cacheKey": "sourceBufferPointer+colorSpace",
+    "exactMipChains": true,
+    "textureInstanceCount": 0,
+    "instances": []
+  },
+  "changes": {
+    "sourceBinaryPreserved": false,
+    "optimizedDisplay": "Static reachable geometry retained; offline loss-bounded simplification, tangent baking and deterministic texture downscale. Original archives and unoptimized prepared references preserved separately."
+  }
+}

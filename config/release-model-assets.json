@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "scope": "Pinned bundled model/environment assets with existing recorded license evidence; not legal certification. Local manufacturer showroom research is excluded.",
+  "assets": [
+    {
+      "path": "cabin-budget.glb",
+      "bytes": 2621476,
+      "sha256": "d454134dbd20ae66245582658f8f995c7973318b0353ee95aa2ed114508813e1",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "cabin-LICENSE.txt",
+      "sourceEvidenceSha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921"
+    },
+    {
+      "path": "cabin-effects.glb",
+      "bytes": 277688,
+      "sha256": "64d388ff114b7b6d1410d27862c1f616046ff8dc26f7e3bd87290fa59379be0c",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "cabin-LICENSE.txt",
+      "sourceEvidenceSha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921"
+    },
+    {
+      "path": "studio_ibl.ktx",
+      "bytes": 2095456,
+      "sha256": "35dca59f5426495fd2fd581c814655f9b0f7e71f712bfa219d08436617749ad1",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "Apache-2.0",
+      "sourceEvidence": "filament-LICENSE.txt",
+      "sourceEvidenceSha256": "02d70b593dd8e9355dd8e1ca8d13c303bee5bcaf3065b66ff6e4f534e1e6a2c1"
+    },
+    {
+      "path": "vehicle-shells/detected_vehicle.glb",
+      "bytes": 147300,
+      "sha256": "a1d1899e2d41e67dbc212ca53f9af95cb4fbb1e88ace91a77032fd466ec29e94",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/generic.glb",
+      "bytes": 147288,
+      "sha256": "048b6893930184a599ac96a5ae2b01adb931baac77cf2f7cb4b91ce01bd5d90a",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/genesis_gv60.glb",
+      "bytes": 149340,
+      "sha256": "e196ae7d74dfa8202d2c2504f6d7ceb42e49cb9a6951446119cb87db29de8446",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/genesis_gv70.glb",
+      "bytes": 149776,
+      "sha256": "6f1dad941b365ba34a85b7abfdb7f1a3aa6664ba6e9f29ac96be8c6a18c23b33",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/genesis_gv80.glb",
+      "bytes": 147896,
+      "sha256": "4928b2deb06d58564160e68d7dc3afaebbaa4356cdacf89264f766c90b83f363",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/hyundai_ioniq5.glb",
+      "bytes": 150140,
+      "sha256": "2df574c340d1a178fe51023d1085c1d37e69e28d44f98c0dc6e7ee8472bd1f52",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/hyundai_ioniq6.glb",
+      "bytes": 147248,
+      "sha256": "8edaf650b609e7db953e99108ac38670b3db91624ef93fecf3b0ee7fd4413078",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/hyundai_ioniq9.glb",
+      "bytes": 146152,
+      "sha256": "f324005a51b878f2dfafc9a93c3c95af48fe77d63ea06669244af43d6263d12e",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/hyundai_kona.glb",
+      "bytes": 147468,
+      "sha256": "d3c33abebc4ab0eec77720a93abee2587f2ae24d5200205c4a8ba4894b7ebecb",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/hyundai_nexo.glb",
+      "bytes": 146632,
+      "sha256": "baa457748497730cdabe5c85ba51dafb9f62a7ad10196c1b117c3622ee5e55aa",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/hyundai_palisade.glb",
+      "bytes": 145432,
+      "sha256": "5952020c2f3ea00f93f0a5f4dd6c6f76a31b3caec4533f341db9dfc7082d37e4",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/kia_ev3.glb",
+      "bytes": 146356,
+      "sha256": "36582b62f1435f4071109e5e0ef0b56bc7cb0ffa12b76a6d4a5a94c029b93752",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/kia_ev6.glb",
+      "bytes": 147388,
+      "sha256": "529024ad3ee05e2721d06dd7d4865ab954a8322814946941b10972cae9048d6d",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/kia_ev9.glb",
+      "bytes": 146184,
+      "sha256": "22dfca335acae5ffe14f6805dd8636984a0022cacca708055d08d1a304a50b0f",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/kia_pv5.glb",
+      "bytes": 139160,
+      "sha256": "e799af44f2ea864f0f13af429fc2648f2915126259009e64336bc785b220ff0a",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "vehicle-shells/kia_sportage.glb",
+      "bytes": 146880,
+      "sha256": "4f4eb5933ca70a08d84d90cdc9f1fb0ced85178e6476455283fe8c864e7ec3b7",
+      "distribution": "recorded-open-license",
+      "recordedLicense": "CC0-1.0",
+      "sourceEvidence": "vehicle-shells/PROVENANCE.txt",
+      "sourceEvidenceSha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    }
+  ]
+}

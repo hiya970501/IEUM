@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Test-only exact-URI read grants; absent from Release and baselineQa. -->
+        <provider android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.owned.audio"
+            android:exported="false" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/owned_audio_fixture_paths" />
+        </provider>
+    </application>
+</manifest>

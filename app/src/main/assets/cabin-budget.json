@@ -1,0 +1,226 @@
+{
+  "source": "Licensed generic reference cabin and authored Afterglow outlet effects",
+  "localReferenceOnly": false,
+  "memoryBudget": {
+    "schemaVersion": 1,
+    "validated": true,
+    "glbBytes": 2621476,
+    "jsonBytes": 83696,
+    "decodedTextureBytes": 6291456,
+    "mipmappedTextureBytes": 8388600,
+    "geometryBytes": 1900446,
+    "drawCalls": 226,
+    "triangles": 76045
+  },
+  "previewGlbSha256": "d454134dbd20ae66245582658f8f995c7973318b0353ee95aa2ed114508813e1",
+  "optimization": {
+    "sourceGlbSha256": "64963afddd6a98f2d1471db7a135e35c6eeee08dcb5fc5a5245049d95a6d8e59",
+    "static": true,
+    "sourceCopyrightPreserved": true,
+    "geometryCompression": "none",
+    "quantization": "none",
+    "sourceNormalsPreserved": true,
+    "tangents": "offline MikkTSpace",
+    "simplified": false,
+    "errorLimit": 0,
+    "attributeAwareSimplification": false,
+    "sourceStats": {
+      "nodes": 77,
+      "drawCalls": 226,
+      "triangles": 76045,
+      "geometryBytes": 1886298
+    },
+    "afterPrune": {
+      "nodes": 77,
+      "drawCalls": 226,
+      "triangles": 76045,
+      "geometryBytes": 1446118
+    },
+    "optimizedStats": {
+      "nodes": 77,
+      "drawCalls": 226,
+      "triangles": 76045,
+      "geometryBytes": 1900446
+    },
+    "textureMaximumDimension": 512,
+    "textureBudgetBytes": 8388608,
+    "textureImages": [
+      {
+        "name": "modern-car-interior_body_normal",
+        "source": [
+          4096,
+          4096
+        ],
+        "output": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "modern-car-interior_body_basecolor",
+        "source": [
+          4096,
+          4096
+        ],
+        "output": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "modern-car-interior_body_metallic-modern-car-interior_body_roughness",
+        "source": [
+          4096,
+          4096
+        ],
+        "output": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "modern-car-interior_steering_wheel_normal",
+        "source": [
+          4096,
+          4096
+        ],
+        "output": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "modern-car-interior_steering_wheel_basecolor",
+        "source": [
+          4096,
+          4096
+        ],
+        "output": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "modern-car-interior_steering_wheel_metallic-modern-car-interior_steering_wheel_roughness",
+        "source": [
+          4096,
+          4096
+        ],
+        "output": [
+          512,
+          512
+        ]
+      }
+    ],
+    "materialRepairs": [],
+    "repairedZeroNormals": 0,
+    "checks": {
+      "allAttributesFinite": true,
+      "allAttributeCountsMatch": true,
+      "allTriangleIndicesInRange": true,
+      "noMorphTargets": true,
+      "noAnimations": true,
+      "noOrphanNodes": true
+    },
+    "independentValidation": {
+      "budgetMatchesActualBytes": true,
+      "allImagesAtMost512": true,
+      "noUnusedMeshesMaterialsImages": true,
+      "noMorphTargetsAnimations": true,
+      "handednessWrapperAndWorldPlacementPreserved": false,
+      "quantizedWorldBoundsWithin2mm": false
+    }
+  },
+  "binarySha256": "e6b8b38b2db30eed402e9f85a3f81b50a6f838b020224640438bf531b7167656",
+  "exteriorPalette": {},
+  "compatibility": {
+    "noSheen": true,
+    "noDraco": true,
+    "noMorphTargets": true,
+    "attributesValidated": true
+  },
+  "textureAccounting": {
+    "version": 2,
+    "cacheKey": "sourceBufferPointer+colorSpace",
+    "exactMipChains": true,
+    "textureInstanceCount": 6,
+    "instances": [
+      {
+        "imageIndex": 1,
+        "colorSpace": "srgb",
+        "sourceKey": [
+          "buffer",
+          0,
+          1906192
+        ],
+        "roles": [
+          "0:baseColorTexture"
+        ]
+      },
+      {
+        "imageIndex": 2,
+        "colorSpace": "linear",
+        "sourceKey": [
+          "buffer",
+          0,
+          2237528
+        ],
+        "roles": [
+          "0:metallicRoughnessTexture"
+        ]
+      },
+      {
+        "imageIndex": 0,
+        "colorSpace": "linear",
+        "sourceKey": [
+          "buffer",
+          0,
+          1900448
+        ],
+        "roles": [
+          "0:normalTexture"
+        ]
+      },
+      {
+        "imageIndex": 4,
+        "colorSpace": "srgb",
+        "sourceKey": [
+          "buffer",
+          0,
+          2341296
+        ],
+        "roles": [
+          "8:baseColorTexture"
+        ]
+      },
+      {
+        "imageIndex": 5,
+        "colorSpace": "linear",
+        "sourceKey": [
+          "buffer",
+          0,
+          2493928
+        ],
+        "roles": [
+          "8:metallicRoughnessTexture"
+        ]
+      },
+      {
+        "imageIndex": 3,
+        "colorSpace": "linear",
+        "sourceKey": [
+          "buffer",
+          0,
+          2321496
+        ],
+        "roles": [
+          "8:normalTexture"
+        ]
+      }
+    ]
+  },
+  "changes": {
+    "sourceBinaryPreserved": false,
+    "optimizedDisplay": "Static reachable geometry retained; offline loss-bounded simplification, tangent baking and deterministic texture downscale. Original archives and unoptimized prepared references preserved separately."
+  }
+}

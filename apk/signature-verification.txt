@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): false
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=IEUM, OU=App Development, O=IEUM, C=KR
+Signer #1 certificate SHA-256 digest: f8bbddfe9393aa4f3b627301df6a89fcd7e06f7d13a4386054b27b604c6ffc2e
+Signer #1 certificate SHA-1 digest: 9955f83a2549bfd0fd267757a4b8ea71d01b5115
+Signer #1 certificate MD5 digest: c82979d9ce5fba9b4b1c82ad468b51c6
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: b765f0af1693bc8b2a8292dbbb925f8e4912d11c49b95ab27f6e66f8229eb35a
+Signer #1 public key SHA-1 digest: 4902cc593cf124e413cdbc5785f5f84c0953148a
+Signer #1 public key MD5 digest: 149f8b1303fe7666e1baaa0600616f44

@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.Recovery" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">@font/asta_sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">@color/pleos_dark_basic_00</item>
+        <item name="android:navigationBarColor">@color/pleos_dark_basic_00</item>
+        <item name="android:colorAccent">#A9EDD3</item>
+        <item name="android:colorError">#F8C78B</item>
+        <item name="android:windowBackground">@color/pleos_dark_basic_00</item>
+    </style>
+</resources>

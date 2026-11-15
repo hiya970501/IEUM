@@ -1,0 +1,1903 @@
+{
+  "schemaVersion": 1,
+  "team": "IEUM",
+  "app": "IEUM",
+  "scope": "Staged first-submission files. Manifest/checksum self hashes and ignored commit pointer intentionally excluded. No signing keys or private research data.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 547,
+      "sha256": "3a2d2827fd63f79a48e51a04466935bba71a824e180c7109edd01fb780e79332"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1893,
+      "sha256": "5b90ebae663f3c03df41dc7f3f2fca98514c17963f0517bc577c3e7bc7f9cb2d"
+    },
+    {
+      "path": "apk/IEUM_IEUM_release.apk",
+      "bytes": 50853514,
+      "sha256": "5bd1f44372c0116c659115c8616fc4d9f8d71167158909353fb79736fcdb2870"
+    },
+    {
+      "path": "apk/alignment-verification.txt",
+      "bytes": 7459,
+      "sha256": "88c42638cc4bfcae4eaff1993999722597cbccf553100c1d301c8588d971ef44"
+    },
+    {
+      "path": "apk/manifest-verification.txt",
+      "bytes": 14031,
+      "sha256": "999462ed5ae74c340bc0b01eba2c7c2be0766a5a40919e78924adfcccbff3511"
+    },
+    {
+      "path": "apk/native-security.json",
+      "bytes": 10319,
+      "sha256": "e020e5b952120d8cc43a169ca2e754c3439d15685175edc2c6290a50cf507236"
+    },
+    {
+      "path": "apk/signature-verification.txt",
+      "bytes": 980,
+      "sha256": "77ac04290d1778197ff6f63882693e6e6c448a238b799b315b662295a84b3193"
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "bytes": 36345,
+      "sha256": "768c439b8598588bd272a5cec183af0390b25f9084f4f0b203b0837b498bae8b"
+    },
+    {
+      "path": "app/proguard-kotlin-package-boundaries.pro",
+      "bytes": 867,
+      "sha256": "c3b6346eb27ab1ba036406e11533f34790a8e83aee6a4e23cb57f272db91768f"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/AudioFocusDeviceTest.kt",
+      "bytes": 7283,
+      "sha256": "906112100fdba9757b8fc5c533923d1cf4941014170d3ba952da347073a0b10f"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/AutomaticMusicModeDeviceTest.kt",
+      "bytes": 11307,
+      "sha256": "749f557917f572385d9d3212a070f461753ff68b9260fd0d5f50328a8c88a42e"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/CabinAirDirectionDeviceTest.kt",
+      "bytes": 6025,
+      "sha256": "2cfeaac838b2a304c3881a68e3e941f3450a07c2195e9a2627c145f2d288c392"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ComfortLearningStoreDeviceTest.kt",
+      "bytes": 8073,
+      "sha256": "00a7d4368b33bdf97ec9ae1e5982a5daf46d88d77b30bda4a2a7d7cceeee7410"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ComfortRatingUiDeviceTest.kt",
+      "bytes": 5612,
+      "sha256": "d9eaed48e808649c6a0273f1eb7c4c97b53dc5d8ad397f1d439687bfce240eb4"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ComfortWeatherDeviceTest.kt",
+      "bytes": 786,
+      "sha256": "e9b12d63aff8d849590f71911c5f366340aefaa37a9295a3b14356d20978e41f"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/DialogImeDeviceTest.kt",
+      "bytes": 9609,
+      "sha256": "d5619090d3c6cac7603ff5e40406524f46fabab54b216b6e523443c3f8223a4b"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/DockNotificationDeviceTest.kt",
+      "bytes": 3020,
+      "sha256": "b516d0e38e659ba08b9e71dfdbb4774b5c6a5232532cf52e6c36762a807b10fd"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/DriverDirectoryIntegrityDeviceTest.kt",
+      "bytes": 2653,
+      "sha256": "3f0b55d6fb44be69bfdf1234be1179aa3184f00ed6c98b7af411a97a819d3820"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/DriverProfilePublicationDeviceTest.kt",
+      "bytes": 24799,
+      "sha256": "8b26eb3509cfb54b672c614c93a3b82a8182b222232e1bcab9903b9ec17e8255"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/DriverSideUiDeviceTest.kt",
+      "bytes": 8698,
+      "sha256": "352089a913cd2a503273a7790eab09350ccf1b4c0b0028cd399f8345c78276bf"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/DriverWriteRecreationDeviceTest.kt",
+      "bytes": 8048,
+      "sha256": "77adea33404ab0bd48e87876343ed49cbbe83eb507307c4d8854a7c4a36b53d9"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ExampleInstrumentedTest.kt",
+      "bytes": 667,
+      "sha256": "f4809a654f0b469753a427393fb964a94c4e1756d1e224bb5691eb5290998dbb"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/FormFactorPreviewDeviceTest.kt",
+      "bytes": 9481,
+      "sha256": "ae3c6fdcf2f31fc097b48075fe2d8ee69382cfe4a643a3ecbfd9bfa85729c81f"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/GalaxyWatchIngressDeviceTest.kt",
+      "bytes": 6997,
+      "sha256": "90ff79d24a9e77398538244a9f35089ed81edd625049611474989060a64f1f73"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/GuidelineInteractionDeviceTest.kt",
+      "bytes": 21105,
+      "sha256": "b1ed8f1a3159ddefd9ccfd81f5c69a76ec6fc3648b45e0d5e16ea283b827fd8e"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/GuidelineNoRendererControlDeviceTest.kt",
+      "bytes": 5755,
+      "sha256": "a81728d5603d271e088919d9f4f7ac759403793187ad451c1c460343c5ebc731"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/GuidelineOsInputDeviceTest.kt",
+      "bytes": 9406,
+      "sha256": "55cbd71cf87de458a86890077eb94eaa29cd04a9be30ea128a2e71812b69b913"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/GuidelineUiAuditDeviceTest.kt",
+      "bytes": 23118,
+      "sha256": "5877c8c792b3b8a366666dee09172d0b77010733297e69176781dbedfa579cc7"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/HealthSummaryUiDeviceTest.kt",
+      "bytes": 8084,
+      "sha256": "50538a99758bb2e9c1340ee0f900278dfa3152c4e8acd20f85c7c94bafbbd0f6"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/IeumHomeDeviceTest.kt",
+      "bytes": 9798,
+      "sha256": "7dd790eb5a31b071b45ecb7eb917534e4006927bcc37ece1eb8697e9cde02ca3"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/IeumModeDeviceTest.kt",
+      "bytes": 14184,
+      "sha256": "1e88676dbb7801957d0b8c35d2a7a929383546b0e5ac76b56337eec5424fb069"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/InlineUiPanelReuseDeviceTest.kt",
+      "bytes": 2465,
+      "sha256": "8ac6007f6f71945e70a778ff63b10006a3a28f221aa9fdf65dd43c58baab4db1"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/InputFocusDeviceTest.kt",
+      "bytes": 9563,
+      "sha256": "d3473573069320651bf89e2e9b33673f92a67dc307ab0da5346eaa94eed5ee33"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/LearningEncryptionDeviceTest.kt",
+      "bytes": 9014,
+      "sha256": "afbb52db73e6c3bda670576f78bf5614c25d1bc671cd7ace71b91e97915d75ad"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/LearningPrivacyDeviceTest.kt",
+      "bytes": 5381,
+      "sha256": "119bde6dc00754610714317549f06cce4bdf950d1be1fc8c8a1fdc9daf45d190"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/MusicSessionDeviceTest.kt",
+      "bytes": 7934,
+      "sha256": "ed79b927b39984bdcdbf69623c09c2fd53c704647c4e7471d35e21da1c62f5f3"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/MusicTextLayoutDeviceTest.kt",
+      "bytes": 8066,
+      "sha256": "501ed7a3e2223a0584bd48a365415dc628c716a11d7fd0d3e280639cf1b930fe"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/NativeCloseTestSupport.kt",
+      "bytes": 1948,
+      "sha256": "d66b02be1cfb97d602a74d3e08dd72e01a7d1f025adc8abbc9f67b6459bd3c92"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/NativeHeapReclaimerDeviceTest.kt",
+      "bytes": 857,
+      "sha256": "02965408a438442975a8ab79444d58184fcb7ec30a889fd8ef104b234316bf79"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/NativeLibraryMappingTestSupport.kt",
+      "bytes": 2895,
+      "sha256": "00c5afbcb034be6e1859bbd3aa3dde6f394506718a30e8677f1328521a2e73e6"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/OwnedAnrTraceDeviceTest.kt",
+      "bytes": 2005,
+      "sha256": "351a647d97a3901d443306eb42fb57b370ff31559b3dceda6c91dceaad1201e6"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/OwnedCacheVlcDeviceTest.kt",
+      "bytes": 6687,
+      "sha256": "15f96939d5f10eb4a724045ef5eea2aa5e60468dda7fdd9417129270317655dc"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/OwnedModeCleanupDeviceTest.kt",
+      "bytes": 3020,
+      "sha256": "2e27e2060240a9182437d5b5a1eccea5ea5df03e212027f00aef0e9acccfea83"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/OwnedModeFeedback.kt",
+      "bytes": 11669,
+      "sha256": "ac51552e7438612606d5fa5eae707e4d5a2a5d3dc9a41cd8ec3377179b82fc2b"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/OwnedVlcSource.kt",
+      "bytes": 5631,
+      "sha256": "2da0eae0612f85a45cc63a54edaf2abb8e5bc50f82152effe5579ee5a3d32672"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/PanelRenderOwnershipDeviceTest.kt",
+      "bytes": 8102,
+      "sha256": "59bb810c182ad557d9eefe061466d6507722517684d1832a2b30509cebc40937"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/PortableProfileDeviceTest.kt",
+      "bytes": 3323,
+      "sha256": "dc28595981e0aa996f0137dceea90511644d5fc47bde90c4e1c32069214ad1bf"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/PortableProfileUiDeviceTest.kt",
+      "bytes": 11293,
+      "sha256": "46d4bc84f1e7eeda64870d394bfa4f02bc5b2244976cdee93447e3784e5a2971"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/PrecomputedThermalProjectionDeviceTest.kt",
+      "bytes": 3169,
+      "sha256": "cf891a27a533e45f03c3bc38109baaf754dc4a36e0129c1e759cc00d1df16cb0"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ProtectedSettingsMigrationDeviceTest.kt",
+      "bytes": 3651,
+      "sha256": "58e96c54e0a167d4e33dfdc969e1cabec756e2ad5c8011dab5ca943a9399129a"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ProtectedStorageDeviceTest.kt",
+      "bytes": 7572,
+      "sha256": "035c1c410c005863c73600801f829f87eff15e4434ce3fd1e2b0c6e50f6b07f6"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/PublicHttpsDeviceTest.kt",
+      "bytes": 1966,
+      "sha256": "2516a07cef6a72634f60ac84670f0f20317caecd6c80432f1dafcce15859a92d"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/RenderCadenceDeviceTest.kt",
+      "bytes": 2048,
+      "sha256": "d337e4f8e3422c989f5293421e54f02bd222a09aba84f07143376c670742d231"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ScreenPowerDeviceTest.kt",
+      "bytes": 4728,
+      "sha256": "5016344464c43d0944e179191c91a88c67c4bb9b7238114c019a18a52e13909a"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/SeatMotionDeviceTest.kt",
+      "bytes": 11910,
+      "sha256": "5926744057a1699748d418f1746be8d00edd47bd926ee46cc9fe65c4ca4e095e"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/SteeringVisualDeviceTest.kt",
+      "bytes": 6688,
+      "sha256": "c9364d416e9a9703599b4320a8f6f589d893b74950b9e3e99fc94a3677079a45"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/ThermalProjectionDeviceTest.kt",
+      "bytes": 7947,
+      "sha256": "e47b844a8c34b493a3bb68b1c6684149f2ab05f475d55c7ab826c81389b5e6d2"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/TypographyDeviceTest.kt",
+      "bytes": 4860,
+      "sha256": "7b0a959e5234d33a794aedaca31a24cb4495cb96e835ed16217199fbbe16daf1"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/VehicleLifecycleDeviceTest.kt",
+      "bytes": 6856,
+      "sha256": "d5d2e7c3e7fcb71d0551b1f86999c323523e0bad11d7fdd6188f767f26fc9a25"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/VehicleSelectionSnapshotDeviceTest.kt",
+      "bytes": 1716,
+      "sha256": "5537f66f573d290c651786359601ba79b6c20c33054fde15c7611f7012355897"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/VisibleTextContrastAudit.kt",
+      "bytes": 6083,
+      "sha256": "1cb70a659f7ce8819b1ac687a4c421395b9996307bbcacbebb8f0e8436ce7fbc"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/VulkanBackendProbeDeviceTest.kt",
+      "bytes": 3259,
+      "sha256": "debdf59aaeda2fce2f33371a7969607cb5f5030c7550f1a70561b6a57711f4be"
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/version1/WeatherTrackingDeviceTest.kt",
+      "bytes": 4947,
+      "sha256": "e1dec62351bfc89a7ae3ff2bf3a91e8bb63b5e33ae538311430484fb4f57ae85"
+    },
+    {
+      "path": "app/src/baselineQa/AndroidManifest.xml",
+      "bytes": 582,
+      "sha256": "f83a24ba7c741c1f9d3d18fda530ab92a93c585b04177769ca66c3ff72233c62"
+    },
+    {
+      "path": "app/src/baselineQa/java/com/example/version1/BaselineQaDiagnosticsProvider.kt",
+      "bytes": 9496,
+      "sha256": "3f605e5995f31f528b75c4fc080e00b11d63c03837a2d37329f07cccae4f2c02"
+    },
+    {
+      "path": "app/src/debug/AndroidManifest.xml",
+      "bytes": 572,
+      "sha256": "85c781f420842a3c4a41a5cb2bdbd323913a197c81a793688d99f9c5cd5e16aa"
+    },
+    {
+      "path": "app/src/debug/res/xml/owned_audio_fixture_paths.xml",
+      "bytes": 147,
+      "sha256": "d12f7c3a4e10eabc7996b83f0bf51b4e8a42867e6f3168d47a41b2b0a956105e"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "bytes": 3545,
+      "sha256": "062d9e18ed23a4f16add9dadf882d3897e386c6178225429bbfd88585484eedb"
+    },
+    {
+      "path": "app/src/main/assets/MODEL-SOURCES.txt",
+      "bytes": 903,
+      "sha256": "0a73f1c936ff9d75f73423d449e0730bc92396ed1a804554ac98ce4d5e57d0ad"
+    },
+    {
+      "path": "app/src/main/assets/cabin-LICENSE.txt",
+      "bytes": 760,
+      "sha256": "01908a56d6cada52704b20c5094c2aa16c9d8be6f124349c986764067abfd921"
+    },
+    {
+      "path": "app/src/main/assets/cabin-budget.glb",
+      "bytes": 2621476,
+      "sha256": "d454134dbd20ae66245582658f8f995c7973318b0353ee95aa2ed114508813e1"
+    },
+    {
+      "path": "app/src/main/assets/cabin-budget.json",
+      "bytes": 5451,
+      "sha256": "85aa515cf498888349a3cb6cbc6c62f66f6c77f29434cfae341ccc968a984a0a"
+    },
+    {
+      "path": "app/src/main/assets/cabin-effects.glb",
+      "bytes": 277688,
+      "sha256": "64d388ff114b7b6d1410d27862c1f616046ff8dc26f7e3bd87290fa59379be0c"
+    },
+    {
+      "path": "app/src/main/assets/cabin-effects.json",
+      "bytes": 2707,
+      "sha256": "e821f68e466c8eb1e1987b5e1be50665e8d81c5c999e107b5861fa1bc80fbe91"
+    },
+    {
+      "path": "app/src/main/assets/filament-LICENSE.txt",
+      "bytes": 11362,
+      "sha256": "02d70b593dd8e9355dd8e1ca8d13c303bee5bcaf3065b66ff6e4f534e1e6a2c1"
+    },
+    {
+      "path": "app/src/main/assets/licenses/asta-sans-OFL.txt",
+      "bytes": 4389,
+      "sha256": "2448ea782a6364d571a4848c34db8a042311f44c78cf00265888db19ea10d5a4"
+    },
+    {
+      "path": "app/src/main/assets/studio_ibl.ktx",
+      "bytes": 2095456,
+      "sha256": "35dca59f5426495fd2fd581c814655f9b0f7e71f712bfa219d08436617749ad1"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/PROVENANCE.txt",
+      "bytes": 2274,
+      "sha256": "e5dee12171099774cd477b8b9dd4ee25682d5f0e64895bdeb5038eb7876c679e"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/detected_vehicle.glb",
+      "bytes": 147300,
+      "sha256": "a1d1899e2d41e67dbc212ca53f9af95cb4fbb1e88ace91a77032fd466ec29e94"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/generic.glb",
+      "bytes": 147288,
+      "sha256": "048b6893930184a599ac96a5ae2b01adb931baac77cf2f7cb4b91ce01bd5d90a"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/genesis_gv60.glb",
+      "bytes": 149340,
+      "sha256": "e196ae7d74dfa8202d2c2504f6d7ceb42e49cb9a6951446119cb87db29de8446"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/genesis_gv70.glb",
+      "bytes": 149776,
+      "sha256": "6f1dad941b365ba34a85b7abfdb7f1a3aa6664ba6e9f29ac96be8c6a18c23b33"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/genesis_gv80.glb",
+      "bytes": 147896,
+      "sha256": "4928b2deb06d58564160e68d7dc3afaebbaa4356cdacf89264f766c90b83f363"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/hyundai_ioniq5.glb",
+      "bytes": 150140,
+      "sha256": "2df574c340d1a178fe51023d1085c1d37e69e28d44f98c0dc6e7ee8472bd1f52"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/hyundai_ioniq6.glb",
+      "bytes": 147248,
+      "sha256": "8edaf650b609e7db953e99108ac38670b3db91624ef93fecf3b0ee7fd4413078"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/hyundai_ioniq9.glb",
+      "bytes": 146152,
+      "sha256": "f324005a51b878f2dfafc9a93c3c95af48fe77d63ea06669244af43d6263d12e"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/hyundai_kona.glb",
+      "bytes": 147468,
+      "sha256": "d3c33abebc4ab0eec77720a93abee2587f2ae24d5200205c4a8ba4894b7ebecb"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/hyundai_nexo.glb",
+      "bytes": 146632,
+      "sha256": "baa457748497730cdabe5c85ba51dafb9f62a7ad10196c1b117c3622ee5e55aa"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/hyundai_palisade.glb",
+      "bytes": 145432,
+      "sha256": "5952020c2f3ea00f93f0a5f4dd6c6f76a31b3caec4533f341db9dfc7082d37e4"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/kia_ev3.glb",
+      "bytes": 146356,
+      "sha256": "36582b62f1435f4071109e5e0ef0b56bc7cb0ffa12b76a6d4a5a94c029b93752"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/kia_ev6.glb",
+      "bytes": 147388,
+      "sha256": "529024ad3ee05e2721d06dd7d4865ab954a8322814946941b10972cae9048d6d"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/kia_ev9.glb",
+      "bytes": 146184,
+      "sha256": "22dfca335acae5ffe14f6805dd8636984a0022cacca708055d08d1a304a50b0f"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/kia_pv5.glb",
+      "bytes": 139160,
+      "sha256": "e799af44f2ea864f0f13af429fc2648f2915126259009e64336bc785b220ff0a"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/kia_sportage.glb",
+      "bytes": 146880,
+      "sha256": "4f4eb5933ca70a08d84d90cdc9f1fb0ced85178e6476455283fe8c864e7ec3b7"
+    },
+    {
+      "path": "app/src/main/assets/vehicle-shells/manifest.json",
+      "bytes": 30593,
+      "sha256": "8a01e9f62505494c95577dc521c2fb0b79305a5eb8ec4583cb74bd9d6cf5786e"
+    },
+    {
+      "path": "app/src/main/baseline-prof.txt",
+      "bytes": 99444,
+      "sha256": "1b58d0f0a2b84894a3d46080aa892179290be58ab94ce9b5259fc1a2c9a39141"
+    },
+    {
+      "path": "app/src/main/cpp/CMakeLists.txt",
+      "bytes": 356,
+      "sha256": "63ac091d3105e366e06a44a81a40b3e7cc3975eae36bf8d4a098d1c0ae853a1d"
+    },
+    {
+      "path": "app/src/main/cpp/heap_reclaimer.c",
+      "bytes": 544,
+      "sha256": "3863ad2f6d141fd3aa2047648417779088a789218f62928ebce48a1ede58e5c9"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/AdaptiveComfort.kt",
+      "bytes": 7948,
+      "sha256": "80f9ddc7691d5f7c7f81aadb04a755da18e2aec93a7b0e50f1cc0f85201a8b35"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/AmbientPlaybackPolicy.kt",
+      "bytes": 936,
+      "sha256": "868dd13fa846c4dc66ab6fa85b560a8f54ca0a692ddecda7de6aafbc223bdeee"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/AmbientSound.kt",
+      "bytes": 6238,
+      "sha256": "beecbc668769ad8a1b9e2dfb5a766f8451c69473f2f1f0c1bc5671f3413e37f8"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/AppUpdates.kt",
+      "bytes": 5078,
+      "sha256": "eba9a0665488f7d00e0983b5d974c83127c63b7f83b96289fe95a9303c483cc6"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/AutoMusicResume.kt",
+      "bytes": 2869,
+      "sha256": "bf557192a7ed66a0380c305b3b786156a0f97e06a5f584b9779b781507a0bd7d"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/AutoMusicResumePolicy.kt",
+      "bytes": 536,
+      "sha256": "761599e4a7bb523379d4de6cd37c23386a3e300a2038505d8f8f7ac0b5af8830"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/BackgroundPreparationCache.kt",
+      "bytes": 1421,
+      "sha256": "91bfba6c9b57ff87f0aaa7a51f0e55516987efb9f8115edfc1ac94e28970298d"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/BluetoothHealthGateway.kt",
+      "bytes": 2318,
+      "sha256": "5b792ba7f4932dd842cb76fc4729778f1d730667901bd1d275cab684a9173677"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/BluetoothHealthServer.kt",
+      "bytes": 3716,
+      "sha256": "967d349ea190b32b50adc9ee62053f9bd86a0cb82ad8c66b5c310afbd53bf653"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/BoundedMediaRead.kt",
+      "bytes": 898,
+      "sha256": "ce36a17f567fab9068f4a0b27e2f838e006f17a04d25388ced714461b754d489"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/CabinAirDirection.kt",
+      "bytes": 721,
+      "sha256": "028311b9d81b034604e7679bea84b04ca969a71e0d97cedfe36bd5f87e044c90"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/CabinAirflowView.kt",
+      "bytes": 14737,
+      "sha256": "a56f1e0450c01547b551d702ccb2d87373c9c8a3a0d3f3733d039c0fb4f69ee1"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/CabinEffectState.kt",
+      "bytes": 2002,
+      "sha256": "35e8998e9bb10f91e95041509827282b6e1653bc05eaf572e7931862587a351f"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/CabinSceneState.kt",
+      "bytes": 525,
+      "sha256": "21b80d52ce6cf8c2a0fed3aaed30904efbf1753ba535b24fa30d0b0e6760aeda"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/CabinTelemetry.kt",
+      "bytes": 1179,
+      "sha256": "7ab2caa2567804e45a3bf199153b3e1298c34236cbcdade183600b5ac871cfcf"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/CabinThermalStyle.kt",
+      "bytes": 1203,
+      "sha256": "400a9f90b1b080bf77330a8c929748b8fc567a41d6679ff86be9462fc2950620"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/CarSafetyGate.kt",
+      "bytes": 2406,
+      "sha256": "48795f72bd0a06b2ee42abd777ade77d4f1841a2fa3fb608d7aeb01676213c6f"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ComfortLearningStore.kt",
+      "bytes": 5729,
+      "sha256": "1b9a4ca2589bda1fda9709d55af38712877829c8dbc44d02aa7299361840c85e"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ComfortRecommendation.kt",
+      "bytes": 9144,
+      "sha256": "760cfb1a9f8b241249439b33b7f32c41778d35ab4d841eb40c7e76d2f07f54d6"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ComfortWeather.kt",
+      "bytes": 2340,
+      "sha256": "d1fe7f51fbe6c418d25d7c188baec5ba29e92148b9b3954c646ac88b0da87716"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DeferredRendererRelease.kt",
+      "bytes": 3873,
+      "sha256": "20c7f903e01f141a81ec5933622b9c1579801e8728d28e3de722a6faccb7d655"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DialogImePolicy.kt",
+      "bytes": 1204,
+      "sha256": "980edc080867ea2e11970fc04d466cab72f1f0a7b50f542e3fbbbd9a6900b21e"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DirectModelInput.kt",
+      "bytes": 1312,
+      "sha256": "e7daf7db591f76f3070409b740244d8f28e48a03a7ec83c3ed6977ab85af5a8e"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DirectoryWriteAdmission.kt",
+      "bytes": 946,
+      "sha256": "7799cc4b85c39226f9172b8ca35fe15003427011e57eff8557c71163a38b3d46"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DriverPreferenceKeys.kt",
+      "bytes": 907,
+      "sha256": "771e5797afbab28b179ae22e42be462dfdfd7a3ab64ff11bebd9dd47f66b5801"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DriverProfile.kt",
+      "bytes": 5101,
+      "sha256": "40deb07b55b5c6315d1bb4d9d28fc4ada580cea5bf097462e2d78bcbd8afa16a"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DriverProfileStore.kt",
+      "bytes": 3969,
+      "sha256": "ff693b28536d0b1afa1e0dd852f58ee676811eb1c55bc18731b710255107687f"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DriverSeat.kt",
+      "bytes": 1573,
+      "sha256": "2667a38c47f8009df761afb1b24ffe985a30b3133acc544e34e076dab024497f"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DriverSeatReader.kt",
+      "bytes": 3905,
+      "sha256": "da4cdce1c26d3b15d56cae7aa248c652372d2f220d98a9cbda41dff1a4b66110"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/DrivingNotice.kt",
+      "bytes": 1016,
+      "sha256": "fd5684e99a16bff12ee0a57e41094d5b62718798b95095bccf89e64cfc5a0b3a"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/EmulatorConsoleSession.kt",
+      "bytes": 3622,
+      "sha256": "dc2e269a0fd74b55fbdea488b4c3c29534fdd2477a91123dd275093928a42283"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ExternalMusic.kt",
+      "bytes": 5259,
+      "sha256": "2881162de06e4871a6943e6b0e206110f4329fd5761fbd59234009cf5b7dcf75"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ForegroundResourceGate.kt",
+      "bytes": 865,
+      "sha256": "e00da545a6ec4a654b9ef66fbc130fce33641414cede72b29c409e605d2ad505"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/HealthSummaryPresentation.kt",
+      "bytes": 1337,
+      "sha256": "11a66f94d2662eba99554ebe5476d73d94a1861e48a68b58b84885c8b7ba355f"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/InteractionLatency.kt",
+      "bytes": 4159,
+      "sha256": "b1223c53bd88dbf8404288e991ed150cda25798a1741e2e2636a196028ffcc81"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/JsonIngress.kt",
+      "bytes": 1291,
+      "sha256": "8aa7eac97de49ed78878a10bb4040d622bfa057b0efaf3d83abe5be5b8d62e9a"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/LearningPrivacyStore.kt",
+      "bytes": 2222,
+      "sha256": "6bb12239c752d28176c5c1462b4758ac80b5acd48bcd4ea8923b26867bfcb7ac"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/LearningWriteCoordinator.kt",
+      "bytes": 1227,
+      "sha256": "949de5d33b967e85165db5420c17709d2c62003d9ff3dd5f586ec97df4b99179"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MainActivity.kt",
+      "bytes": 216269,
+      "sha256": "9693cbfff2c2ea1ea7e3d51994602bf95bc5359d6b0d023c8f00d585af1f6bc9"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MappedModelInput.kt",
+      "bytes": 1030,
+      "sha256": "33ff84b08a56a0e15a4882af883f1b5ae8d016e44659363d7f3b97c513a76560"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MemoryBudgetPolicy.kt",
+      "bytes": 4782,
+      "sha256": "160308e118777d9e0c77d0c5f3e81fa8f676617dbd4e67ae3cdc93b08d773f6d"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MemoryTrimPolicy.kt",
+      "bytes": 501,
+      "sha256": "c8adff4df937761b7c5b17acfc34c7abd75d4f09f7f6d396efc81b38a36b4170"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MusicDisplayText.kt",
+      "bytes": 2196,
+      "sha256": "46dd1bb4caeb29843272455ec74eee35dca6525b46084f46ba73960e271079f7"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MusicPlaybackLabel.kt",
+      "bytes": 410,
+      "sha256": "5df99c572e8b3869649331712b4e9c97bdd76f67b1be84f8a1cf1ae9b42d9f19"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MusicSessionBrowser.kt",
+      "bytes": 9893,
+      "sha256": "61ff577c97379789fb9090f08faba6fe048e50880fae932f49c0594f27f45723"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/MusicText.kt",
+      "bytes": 751,
+      "sha256": "e151b861124e0b87d1ee30cead9b184c1a67dcd3034accd7d35935751fc16efa"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/NativeHeapReclaimer.kt",
+      "bytes": 805,
+      "sha256": "d65519a1e66cc59f8f024586775bf9a4d412a1ccc047214cd805af133c5cc60a"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/NativeReleaseGate.kt",
+      "bytes": 1775,
+      "sha256": "718649ddbfb5d2c60524cf185bd997f56830935d6ff59445c82b11191a4027e2"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/NativeRenderLifecycle.kt",
+      "bytes": 1025,
+      "sha256": "2d6be955491fd3f841e2483c777aa79ce6ac50d3af068d9c7f7751e1c8133dbe"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/OccupancyReader.kt",
+      "bytes": 8710,
+      "sha256": "2413f42b7f6b547c4e76cd4478085c0222ed885bcb6774c9f7fcaaa7464ac862"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/OccupancyState.kt",
+      "bytes": 6131,
+      "sha256": "504314e957ccf89e1b168984fc18c6bd8fd38bee327afaf7678c4fc5bca24eea"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PairingPage.kt",
+      "bytes": 1040,
+      "sha256": "7885afea351563a4739aec02351dbb252cd4e60f0f049ed131d64391e31f2813"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PairingSecretStore.kt",
+      "bytes": 2489,
+      "sha256": "8d967d364d31b0ef21b65f270f8c039f02a53a7906cd7932e6b559a6b3e0cb5b"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PerformanceMarks.kt",
+      "bytes": 2004,
+      "sha256": "58dd362a1de52f8b9c02c0eb0c4f9d0f1202dd37637e749b893aaa86c1e1fa36"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PleosDesign.kt",
+      "bytes": 3007,
+      "sha256": "501a588a9548a65baf2c4c14e97cc24f6aa54ad382c0c12c23bc63840045f077"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PleosPalette.kt",
+      "bytes": 824,
+      "sha256": "a6ee43f1137c3683c939098ec4631046ad3a63d57e9750900612c292fef99cb4"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PleosRecoveryController.kt",
+      "bytes": 34197,
+      "sha256": "78ac7883925b8990dc34b01db403ca3660cdb9e147c03495040ad221766441ef"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PleosSwitchStyle.kt",
+      "bytes": 4010,
+      "sha256": "6b83176746a0bbdff06a72d19f9b6ac7ea8836e90c9a2d1deda2277cabced667"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PleosTypography.kt",
+      "bytes": 1750,
+      "sha256": "253d37408d00542a33899e8f035983c0a3690738d6d6bf0e39c2c622f5181951"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PortableDriverProfile.kt",
+      "bytes": 5691,
+      "sha256": "28d4878466a2386cfa769ff7ae066d56823cfa568e23ed831b868b14cac1fd61"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PortableDriverProfileStore.kt",
+      "bytes": 4822,
+      "sha256": "f1cba4405d37aca4ceab95a26f72211af3d7573ad43ce2f9a292d2b9d780c2d4"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PrecomputedThermalProjection.kt",
+      "bytes": 2177,
+      "sha256": "968eae94fc7a8ffe68ef37920eb45bf50388539f22d79e22d08ce0248dcda4aa"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PremiumCabinView.kt",
+      "bytes": 92389,
+      "sha256": "c0842bafa391c1372b456f6e949445ad9e7c776d047563dbe9620ba855e059d8"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PreviewPresentationGate.kt",
+      "bytes": 2190,
+      "sha256": "f996fbab631e4ea787eeffbaf48d0d8ddef0f9a75c24a10c69001f468b38eb81"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ProcessMemoryReader.kt",
+      "bytes": 860,
+      "sha256": "8b96c303c7e866958eb467d3040c8d5d4ae0ac653142fcaadc72270b8fd74f5d"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ProtectedLearningDatabase.kt",
+      "bytes": 8158,
+      "sha256": "3c5be0b1929f2d3e86017e3e58b4445b3c0eeb4b9e83373307f563bdf1472f9f"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ProtectedPreferenceValues.kt",
+      "bytes": 2059,
+      "sha256": "d25057fb91ec290b38dac6da8b1e8a2441b9b1b1c864472cdb32459f32868d59"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ProtectedPreferences.kt",
+      "bytes": 7306,
+      "sha256": "041f9115eb7758e46636c03358786760873b4cbd86e6f299292030c1988bad9a"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/PublicHttpsJsonClient.kt",
+      "bytes": 3846,
+      "sha256": "3852aac7d280a6e1d9884cf2a142006f0527e04b0576d5a9ae89943f6d6d1407"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/QrCodeFactory.kt",
+      "bytes": 1302,
+      "sha256": "7b555069315b87f674c67355abb8893712e77c25772741ac18ad45ab47e43190"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RecentWorkout.kt",
+      "bytes": 5309,
+      "sha256": "0aa85be40f62c7159c5bd75a23b33361e29bbb7acda6070b5dbd17c835a722d7"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RecoveryJournalPresence.kt",
+      "bytes": 618,
+      "sha256": "508a7e00080d5f7b1babcc1e17a926dd3e7670183c5b4918ec09e86b2391a094"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RecoveryJournalProtection.kt",
+      "bytes": 1283,
+      "sha256": "90b3dcc73759e633e859c96918759db13ac981437cbc5c5122cc08c798b9e9ca"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RecoveryPlan.kt",
+      "bytes": 1226,
+      "sha256": "eea5d2586d5d1c468096f30a585249accc8870777beed6d8970aad363edb7d49"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RecoverySessionInput.kt",
+      "bytes": 4723,
+      "sha256": "68931903f9f10f9f980c6e371d313515b9f7b98d7ba7afa681a5e3a69fe413cd"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RecoveryVisuals.kt",
+      "bytes": 7184,
+      "sha256": "2541c143a994849dfa177d23a4a2dd8c3a891c39c222690957dffc87d71ffb57"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RenderFrameBudget.kt",
+      "bytes": 781,
+      "sha256": "8c4df8e2888ddc978d74e3294c2f756b0bd8310735bc324a75a16b330becc007"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/RestoreDecision.kt",
+      "bytes": 6326,
+      "sha256": "20e3fc2e438ced18a7032a8b6493f664173604953197e34308b55552000f5be3"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ScreenPowerMonitor.kt",
+      "bytes": 1254,
+      "sha256": "ce0cc367e6078ca00d4bd75558bac944eb4c1094d7c4bde3352fd39384580517"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/SdkMetadataPreparation.kt",
+      "bytes": 1011,
+      "sha256": "7b0e12610fae8d98ea82e9c4cbed72a6896f99d02735b123f7181fd7e652334a"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/SdkReadCall.kt",
+      "bytes": 2238,
+      "sha256": "e80a70cb45f35acbfcf3ffaf905c052418bed9c3717a666870c89e89c64f1bde"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/SeatMapView.kt",
+      "bytes": 12133,
+      "sha256": "34380c0ea8f036687e8e86dc4689902960f6debaff8563ea85b6cd82ba518a4e"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/SensitiveValueCipher.kt",
+      "bytes": 2869,
+      "sha256": "456bab70745d22eb4c8fe8a6e517dfa0bc7f5698c3454ec2cf130e83b9d12704"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ThermalGeometry.kt",
+      "bytes": 6557,
+      "sha256": "0f00e6ddefc5ba4f973643f2defc60b0e1a543b17690c770b3cb82823cb4b4d6"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ThermalJsonProjection.kt",
+      "bytes": 6448,
+      "sha256": "1436ae6f60190f5d9d7c4e4f150d3563b1673195377055bc6f461d08831075bf"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/UiPanel.kt",
+      "bytes": 5357,
+      "sha256": "fdeb3bb56face81d02b4a9d49c52435165619c5b583b229ff8341dae95603847"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/VehicleControlArbiter.kt",
+      "bytes": 1455,
+      "sha256": "eb858e72ef4b385d30770a1cfc69cb708ff1b84955d7f6706c60f22dc00fea39"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/VehicleIdentityReader.kt",
+      "bytes": 7357,
+      "sha256": "9845d962887b2e82eff4820bc74d5fca11740dd7c94588cba52856e3e6ea0a50"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/VehicleReadback.kt",
+      "bytes": 1703,
+      "sha256": "d8bec20f8e042dfefb1526c69c37680ca4f2226a2d6399ae8ac4af64621905be"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/VehicleSelection.kt",
+      "bytes": 8718,
+      "sha256": "6b75f7ad12f41096ebd981babfadc9aa061f103460a1ec6eabb0754e7cbbc24d"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/VehicleSettingOperation.kt",
+      "bytes": 758,
+      "sha256": "8dab8e6427b12e3ab5d4ee83c398f4af7792282b1eb5345f607b0678b8391dad"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/VehicleVisualCatalog.kt",
+      "bytes": 3835,
+      "sha256": "01d005ed8a71b1e39af04c11f23d694af73a0810117644689536ccd58d359746"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/WatchPairingWindow.kt",
+      "bytes": 1184,
+      "sha256": "c78e66aafe240aa5c2690920c9d12e0abcb23be0f57a486d1020f9f8865809bf"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/WatchReceiver.kt",
+      "bytes": 35414,
+      "sha256": "4b5a99e8d7f1b36010341712dee7c0aff0af4846c3b97b790d52a6e57c5b1f36"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/WeatherLocation.kt",
+      "bytes": 4894,
+      "sha256": "2dc5bff9ba45ff514c5517694a6f6261c59f0da5cad686f9eaa219393faf1631"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/WeatherLocationTracker.kt",
+      "bytes": 2793,
+      "sha256": "f23e8df266f9864a2fc0277a22ca1d1fffc27d4bd9fdd7840687f3ecfd37104a"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/WeatherRegionPolicy.kt",
+      "bytes": 1093,
+      "sha256": "3eee0543c3c35894e309e377863061b91df323635cf98021dab16bbdd35cb173"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ZeroTap.kt",
+      "bytes": 6580,
+      "sha256": "c96e0f6a26a00de7137c3c9a177d10aee4f574c90ad5981998a173fbfffc3dc9"
+    },
+    {
+      "path": "app/src/main/java/com/example/version1/ZeroTapBackgroundService.kt",
+      "bytes": 13170,
+      "sha256": "dfe78641c2975ae02575007ce4f2bf12de24e3a990ae291b168a38fed764ff6d"
+    },
+    {
+      "path": "app/src/main/java/com/google/android/filament/utils/BUDGET_VIEWER.md",
+      "bytes": 2028,
+      "sha256": "be0dcd75f9f08354f4cb503e27ed36582fc1427775515ce48cf6318225b00ea4"
+    },
+    {
+      "path": "app/src/main/java/com/google/android/filament/utils/BudgetModelViewer.kt",
+      "bytes": 28181,
+      "sha256": "808df88c3e85e926097b7fef4a33eda7962040a05e4e1e16a9fcdf07f26aa330"
+    },
+    {
+      "path": "app/src/main/java/com/google/android/filament/utils/LICENSE",
+      "bytes": 11362,
+      "sha256": "02d70b593dd8e9355dd8e1ca8d13c303bee5bcaf3065b66ff6e4f534e1e6a2c1"
+    },
+    {
+      "path": "app/src/main/keepRules/rules.keep",
+      "bytes": 418,
+      "sha256": "cd9f36ade2d8604e1b7cf24eff5b171f9c0816c0aa013ba7eb55be4fe2e1dac7"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_afterglow.xml",
+      "bytes": 677,
+      "sha256": "8c7db92786eb0a00096fa589b9f74f4d9cd12e195ae66063772882fa678d927d"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_afterglow_mark.xml",
+      "bytes": 598,
+      "sha256": "bcee3b61bb9a62c8edd270438781e118eed1fcd618b53abc5a020ef6f3299241"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_ieum_mark.xml",
+      "bytes": 608,
+      "sha256": "9e4bd8abe45afd5123a8a09d0faa0859c0e1a9dc053bd86948221d060c5d4bc2"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "bytes": 1702,
+      "sha256": "01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7"
+    },
+    {
+      "path": "app/src/main/res/font/asta_sans.xml",
+      "bytes": 423,
+      "sha256": "9106e738bea15ccd1c445af38cc3d143200a2c192209d54b64ef51079fbd73f0"
+    },
+    {
+      "path": "app/src/main/res/font/asta_sans_variable.ttf",
+      "bytes": 5771772,
+      "sha256": "f68410bf7d04deb992097758640145c72ddcf234070794237fc4994e18991c33"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher.xml",
+      "bytes": 323,
+      "sha256": "6536939295942acd0e2fb48da83125c60c369b16c56ce2b5da59a159b96a294b"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi/ic_launcher_round.xml",
+      "bytes": 323,
+      "sha256": "6536939295942acd0e2fb48da83125c60c369b16c56ce2b5da59a159b96a294b"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "bytes": 1404,
+      "sha256": "dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "bytes": 2898,
+      "sha256": "1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "bytes": 982,
+      "sha256": "846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "bytes": 1772,
+      "sha256": "4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "bytes": 1900,
+      "sha256": "398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "bytes": 3918,
+      "sha256": "91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "bytes": 2884,
+      "sha256": "58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "bytes": 5914,
+      "sha256": "3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "bytes": 3844,
+      "sha256": "f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "bytes": 7778,
+      "sha256": "5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc"
+    },
+    {
+      "path": "app/src/main/res/values-night/recovery_theme.xml",
+      "bytes": 666,
+      "sha256": "5c4945d524961de36832be3688885affd318c4a03e4686cd21f13ba8d6910922"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "bytes": 378,
+      "sha256": "b5626527d503417f0d8e5b1e08f338de7b31173bf0e122815f03e64932adbd88"
+    },
+    {
+      "path": "app/src/main/res/values/pleos_design_tokens.xml",
+      "bytes": 2015,
+      "sha256": "56324b2f9f9a642ecb38f587c945a6f5b756bf8631edc710ec02c20c93c900bf"
+    },
+    {
+      "path": "app/src/main/res/values/recovery_icon.xml",
+      "bytes": 78,
+      "sha256": "d9d1a6131241df2a874368a689c0ffff0a0cf993e61bc46e64d712cfc98de2a3"
+    },
+    {
+      "path": "app/src/main/res/values/recovery_theme.xml",
+      "bytes": 613,
+      "sha256": "c5fe92d7df5d8de5286c0efebccef9654a85b089b873aebafbf47831431995a0"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "bytes": 67,
+      "sha256": "addcc502f37a49a0a56082a83195aee701241ace7a7162149abe003dee2cd431"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "bytes": 537,
+      "sha256": "60ff62250748b35af47fec4e3c9c0ef17d110e1cbd9f047292623d27289cb193"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 718,
+      "sha256": "d6b647a0999c3395a4c711175c00f4eef79d1ffefa116f3a01fcb57549ad12ae"
+    },
+    {
+      "path": "app/src/main/res/xml/network_security_config.xml",
+      "bytes": 342,
+      "sha256": "9187f485f22fde712aea8de5243664710440a9ee08e9f1b172978eef96a15001"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/AdaptiveComfortTest.kt",
+      "bytes": 5043,
+      "sha256": "19c313935b6412dae897a7f6ea8fc332b1488958915877e23d43962be0737649"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/AmbientPlaybackPolicyTest.kt",
+      "bytes": 1720,
+      "sha256": "c2bf0ee0fee27894ef5956dbdca90e94ec91fc6ae8d71b8499a27ff86722d5bf"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/AppUpdatePolicyTest.kt",
+      "bytes": 3122,
+      "sha256": "be3463192745f8cd0ac637e87018a13e4e772574fdf092702fdbab5fe8e22e17"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/AutoMusicResumePolicyTest.kt",
+      "bytes": 801,
+      "sha256": "0b7107ada30b1e5b862532f795f47306f6179f988c33ae77ccaaa157e26e2014"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/BackgroundPreparationCacheTest.kt",
+      "bytes": 3958,
+      "sha256": "ffa4a857f4ee4293aad2b0027f9fde5cfccf9461864d1d6e1188bf7fa5de718b"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/CabinEffectStateTest.kt",
+      "bytes": 4236,
+      "sha256": "9b842e08ae15091a8bfb4a911edca1354de804561a18911f1156da80fb48e003"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/CabinThermalStyleTest.kt",
+      "bytes": 1757,
+      "sha256": "b7f3d8522b9e63866225ba3b26557ac62556bac2fd07d2025946f28471cab71c"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/DirectModelInputTest.kt",
+      "bytes": 2635,
+      "sha256": "190227c7fbf3bbda11ab2b408713cb35ec12b789e948d818ca795de101867b7c"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/DirectoryWriteAdmissionTest.kt",
+      "bytes": 1334,
+      "sha256": "ac33c6c73dbd8631ceed2e7aaa098f4cf7ba4cd215f2ea64b09c2ae67adadae8"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/DriverPreferenceKeysTest.kt",
+      "bytes": 1655,
+      "sha256": "041e5cb4b53e5b7911c85c739ab83c2eb343d9c99806916547efe755f147a18c"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/DriverProfileTest.kt",
+      "bytes": 6000,
+      "sha256": "0c5a31301065e515f9a93c17f50e46a93e2b3020c1fdd5b5ae7d9f8f89069b65"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/DriverSeatTest.kt",
+      "bytes": 3258,
+      "sha256": "9497de398f37cc6ea323e423e69dab9718785660ef395e13cdc296e6a0a35070"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/DrivingNoticeTest.kt",
+      "bytes": 2281,
+      "sha256": "6daaafe974af4a54bb4d87de207adb2a102e971b12a6a43380af7e6bae75cc00"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/EmulatorRecoveryTest.kt",
+      "bytes": 2695,
+      "sha256": "436684b7f8b3b63bc298d241c47e8a7419430c0b4be048c8cf71cbb9f82e59fc"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/ExampleUnitTest.kt",
+      "bytes": 344,
+      "sha256": "56adfe93e8442966a0e73c0cf60f9a838e44637767534b2f68daa6a748b4322b"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/ForegroundResourceGateTest.kt",
+      "bytes": 2981,
+      "sha256": "cb1cae2947fe0563afbe168f4863a250db6b52acd59999fb8898c1dbc89e04a7"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/HealthSummaryPresentationTest.kt",
+      "bytes": 2156,
+      "sha256": "8aee2bab7c530581b28ba5c5efa23457a94bdd54262dfacadb503fa2c40fcb0c"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/JsonIngressTest.kt",
+      "bytes": 932,
+      "sha256": "4da723f70252357905ce986fd610c5b5674b6ca4634184d597c326b4232e1189"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/LearningWriteCoordinatorTest.kt",
+      "bytes": 2941,
+      "sha256": "f9e8b0f1fead4eee810c90633fad9bfb66a11df2b9b1c97b3635de01a8e1a98c"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/MemoryBudgetPolicyTest.kt",
+      "bytes": 5731,
+      "sha256": "382ac510cba909932522cabce5f53d754249ea1dbb3ff91276d1f233b1b9adbb"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/MemoryTrimPolicyTest.kt",
+      "bytes": 1437,
+      "sha256": "ff2f0dfb153dd4f3b9ad561bb96fdbc6cb23186722c3b5e5ea4a660e1d5fba1e"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/MusicBoundaryTest.kt",
+      "bytes": 1739,
+      "sha256": "f4f0b000693f0627a649efb71eac94eac806fbdd2ed92ed4a81fe8963369af3d"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/MusicBrowserTest.kt",
+      "bytes": 2032,
+      "sha256": "1c9a951f8402b332b0c19987274df4a658b922a447417a16fb0f5325a89383a3"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/MusicDisplayTextTest.kt",
+      "bytes": 2049,
+      "sha256": "8747d0bd07112a9b9529a36bb95c03deff2066bec30510249b7a481c57b826ed"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/NativeReleaseGateTest.kt",
+      "bytes": 2406,
+      "sha256": "e5fb7f3c6836c51092b3f942642a25c492822ce8ed29d9bb7c5485f855ea8d02"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/OccupancyStateTest.kt",
+      "bytes": 4485,
+      "sha256": "c65ee05a5be1fdb5f94c4d4aa10d339cf401da1cd8a2bac0743da53c82c490c9"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/PleosPaletteTest.kt",
+      "bytes": 1183,
+      "sha256": "4186e2eb64722d805dd3aca2ab2b90fda0a89c9652e242271ecaa64acea34d46"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/PleosTypographyTest.kt",
+      "bytes": 858,
+      "sha256": "692b1711b6fde6255d663b70f2d1c58bbb2b631f6542784c117f74008443ced4"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/PortableDriverProfileTest.kt",
+      "bytes": 5002,
+      "sha256": "9deb6a040e65f290dad468b663dc9be855a3f23e59c5c8d034d3e7036c526d6e"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/PrecomputedThermalProjectionTest.kt",
+      "bytes": 4857,
+      "sha256": "9c7a72e4eaf0c5ac88810b4d464131e752ccc6533ddff0708193120f8971e427"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/PreviewPresentationGateTest.kt",
+      "bytes": 3862,
+      "sha256": "348c74aa497b44ed198b64f375f6a3653da89652bcac25cf064ec83ff30bfe07"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/PrivateIpv4Test.kt",
+      "bytes": 1678,
+      "sha256": "aa7128ee02a5c86e2e81f513498756f449fa653d5059c52543d0036689869c0a"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/ProtectedPreferenceValuesTest.kt",
+      "bytes": 1477,
+      "sha256": "6bc42ecd1acaee022b1d31ca7ea73085b7e7302f45a7c8315bea4737b76ad7b9"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/PublicHttpsJsonClientTest.kt",
+      "bytes": 5937,
+      "sha256": "e0671899843b667d247cd988dd4e15fd4a74738894be47074a3eb248aaac8122"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/RecentWorkoutTest.kt",
+      "bytes": 6522,
+      "sha256": "aaf5c62967514f92915169d9ac499f22704a72b13bebd54d20ce8cf3dd68637f"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/RecoveryJournalPresenceTest.kt",
+      "bytes": 1803,
+      "sha256": "29f1165300289a3a9d337339c992f01ad570d9aa6838f3772ad732bc662ca085"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/RecoveryJournalTest.kt",
+      "bytes": 9479,
+      "sha256": "12c8ee5c76795d6db66620a37d35a5f9707784ea374929702ed642c9d145d757"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/RecoveryPlanTest.kt",
+      "bytes": 8686,
+      "sha256": "608eea254651457687f3439bacfd6025bca7fec9e03bf3f342186ccf51ef7c8b"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/RecoverySessionInputTest.kt",
+      "bytes": 9556,
+      "sha256": "d5283fbd21558aff9b28af6385b36901fe9ca4c0d32769c4da7dca54a5473784"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/RenderFrameBudgetTest.kt",
+      "bytes": 1098,
+      "sha256": "a212923cc7725c5eaaee7811ca7a5122d443d7e750f2c65908fabd2b9934cb5a"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/RestoreDecisionTest.kt",
+      "bytes": 2525,
+      "sha256": "7ba2019361688191296b29444bdd1bcbe6df870a859ba48ae74fa274fd425d4d"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/SdkReadCallTest.kt",
+      "bytes": 4504,
+      "sha256": "6d434944f90b9ccbf4176b6055cce564d8b87737b30716f75b62655ce0d81668"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/SeatTemperatureTelemetryTest.kt",
+      "bytes": 1303,
+      "sha256": "effb54b3a088e87e3032a08ccf86f640f40806ba0ffbd9fed66c0c3c51c30566"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/ThermalGeometryTest.kt",
+      "bytes": 4944,
+      "sha256": "f1e1a7115f8e3ec811e991fdf08290fc49b98516babc96c816ef6c0c13238d26"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/VehicleControlArbiterTest.kt",
+      "bytes": 2004,
+      "sha256": "846e2f933b44082289a7bfa97cf2c1edd6f6c7bae9662819548d665a2be80fe2"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/VehicleReadbackTest.kt",
+      "bytes": 2348,
+      "sha256": "ae926950fd088e1a9db272eddccc586d0b5d888a2562b67e9e32350e29776155"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/VehicleSelectionTest.kt",
+      "bytes": 7435,
+      "sha256": "218859e81105136ea1637d7563f2cc97f8d68d8dd081801775b07b9c53c57ce4"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/VehicleSettingOperationTest.kt",
+      "bytes": 1014,
+      "sha256": "1d605af4ec575941b0d30c9ce4d072ab326b75a1d5171fab3686813fefd606f9"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/VehicleVisualCatalogTest.kt",
+      "bytes": 2296,
+      "sha256": "c7d1764514d3b096a66981993135daf79fac46dadace01dddeace40e2baa3597"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/WatchDirectConnectionTest.kt",
+      "bytes": 2479,
+      "sha256": "837b3c73317b0fed9467940689b5e95456f02bdbb17c27cf62adb1faad0e0e78"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/WatchPairingWindowTest.kt",
+      "bytes": 1286,
+      "sha256": "f7f9b4e723129611ba5f6c87e0e68e90b15f80e1b8e8080042bbbe4dd452598b"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/WatchReceiverTest.kt",
+      "bytes": 42443,
+      "sha256": "746591c4335da531ffabed401cf762a3c4c215db94b0780574cb014fee5f55dc"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/WatchSensorLeaseTest.kt",
+      "bytes": 854,
+      "sha256": "98446775df2864236b5bedadcb81643eabf77b7bda7c71b95295efbe1545d304"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/WeatherLocationTest.kt",
+      "bytes": 1875,
+      "sha256": "089426fc2d040470448f471d83987027628c916602dc31fc152533a33da69687"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/WeatherRegionPolicyTest.kt",
+      "bytes": 1611,
+      "sha256": "96362319881c88701fd7fc913e2c0a5726012b816a096edfed87bf73134f59bd"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/ZeroTapStoreTest.kt",
+      "bytes": 7284,
+      "sha256": "4538451d84a78a637fc557327fbe627e7ea8bed4d49f191fbbb9dc7497dd27a2"
+    },
+    {
+      "path": "app/src/test/java/com/example/version1/ZeroTapTest.kt",
+      "bytes": 2002,
+      "sha256": "06c3ca4d0eae262351c9e5b4ba902ad77716d3c9ef85da43082cda1b503e65b1"
+    },
+    {
+      "path": "build.gradle.kts",
+      "bytes": 167,
+      "sha256": "5dad2d59c54beb7d7801e06e1c795456d1bea58c0ccbeddfce159cd8f58c2fa8"
+    },
+    {
+      "path": "config/release-model-assets.json",
+      "bytes": 8019,
+      "sha256": "89b2c1d5495beb04bbd5837abfba5ba24e00a8358de76eff592a485c48a6aec2"
+    },
+    {
+      "path": "docs/FINAL_VERIFICATION.json",
+      "bytes": 43990,
+      "sha256": "f78cd911a04901f42b858a6577f24aca3a308c5a677e367c77037967f6bfd1ef"
+    },
+    {
+      "path": "docs/IEUM_First_Review.pdf",
+      "bytes": 121985,
+      "sha256": "0456b2a621e6727ad385ac9d373f27c558c7e60327e1791a6338bab61c2b3227"
+    },
+    {
+      "path": "docs/PDF_VISUAL_REVIEW.json",
+      "bytes": 512,
+      "sha256": "87ee62949004d8dc706efcbffc2d3eb91afd79c9584b0d088ebda0cb0408863b"
+    },
+    {
+      "path": "docs/POLICY26_REVIEW.md",
+      "bytes": 17834,
+      "sha256": "d5641e08ba0719898d7afc232f08edc3a405c938692e8df1c3bf60c4f032f06c"
+    },
+    {
+      "path": "docs/POLICY26_STATUS.json",
+      "bytes": 12663,
+      "sha256": "27d7dc4b1448de0d293bcb3bd19223b9e28de6c6cb763d68b1482cb6e2416df3"
+    },
+    {
+      "path": "docs/SUBMISSION_CHECKLIST.md",
+      "bytes": 2271,
+      "sha256": "9219a99e352125ebd12b588703dd9c5e8dda9f71ce459ae0348ccbd27b8cbf0f"
+    },
+    {
+      "path": "docs/THIRD_PARTY_NOTICES.md",
+      "bytes": 1073,
+      "sha256": "44b8115997929fc8f41dddbf83145289477ad9da411c4831266d22f0daa13b07"
+    },
+    {
+      "path": "docs/requirements26.json",
+      "bytes": 5981,
+      "sha256": "df168d15278ae5a1bd278f7448bff1f8a646ed01482e2ac85ec0bf0e2d6a280d"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 1120,
+      "sha256": "cf774135f23cd1e6c054168ce772e24140800347f95b29819744c96f97e4ef26"
+    },
+    {
+      "path": "gradle/gradle-daemon-jvm.properties",
+      "bytes": 1138,
+      "sha256": "6c13aa5ba36690ccfbbb25a8807d01d98c15833e446d7ae82ddc726472cb8ef7"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "bytes": 819,
+      "sha256": "048697f95217e63239484860a1f1d69a9efa7b4f5e29fceda485a5c15a12dc7e"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 45457,
+      "sha256": "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 378,
+      "sha256": "f5e3ec0aacd4fda37b9243ee940d735546cadf43f06ab74fca8cba9ff354bc12"
+    },
+    {
+      "path": "gradlew",
+      "bytes": 8728,
+      "sha256": "3238afb2aed5cb16eb7d6718077e7138059108f007b54179e9cc157c5a6e0e89"
+    },
+    {
+      "path": "gradlew.bat",
+      "bytes": 2937,
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b"
+    },
+    {
+      "path": "phone/build.gradle.kts",
+      "bytes": 1483,
+      "sha256": "b3ea53816a2d1a5c687cb85d9cf0cdc9be84ae00aeaa7bf89083cb83c52495a9"
+    },
+    {
+      "path": "phone/src/androidTest/java/com/example/afterglow/phone/BackgroundHistoryCapabilityDeviceTest.kt",
+      "bytes": 1410,
+      "sha256": "5678c6ada3de6db1e6d1ef214ec53de8594da3adae64231b52e0713313b1ef0f"
+    },
+    {
+      "path": "phone/src/androidTest/java/com/example/afterglow/phone/PhoneIdentityStorageDeviceTest.kt",
+      "bytes": 5280,
+      "sha256": "d2812a766376a5b1f00882e95432d1606f862740640b21564e78271735d6ebb2"
+    },
+    {
+      "path": "phone/src/androidTest/java/com/example/afterglow/phone/SavedConnectionDeviceTest.kt",
+      "bytes": 1872,
+      "sha256": "b652852f0bc297f4c874a4950055551f37ad5b53e749d7e03640b6a10b689408"
+    },
+    {
+      "path": "phone/src/debug/AndroidManifest.xml",
+      "bytes": 471,
+      "sha256": "690738d8290ba81a2841e2edada66af549e9389c371eaa549605afe1c985939c"
+    },
+    {
+      "path": "phone/src/debug/java/com/example/afterglow/phone/FocusFixtureService.kt",
+      "bytes": 2627,
+      "sha256": "470ddd3e8214cca672f5a88e0efe97a74f33cb3a1046d1ce3de1ad9d3aa5e7f9"
+    },
+    {
+      "path": "phone/src/debug/res/values/relay_setup.xml",
+      "bytes": 174,
+      "sha256": "b5128b1f56d84b877361103fc5509c07fd7068dfcd25793ef46d7e9fc168b95e"
+    },
+    {
+      "path": "phone/src/main/AndroidManifest.xml",
+      "bytes": 3044,
+      "sha256": "99a1a74feb5187bcefa57571e2c652f0121132ece7a7202335601f36b0c17ddb"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/AndroidPhoneIdentityStore.kt",
+      "bytes": 2358,
+      "sha256": "5ce2f985ffff2943beb74233a6bd5ba3ac2ebc865ae789da9c3b4505372bf9fe"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/HeartRateRelaySnapshot.kt",
+      "bytes": 1000,
+      "sha256": "8a5c0710f472eb0ff8fd10999883e7e2c60a809dff90e98a23a8f14515578ea7"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PagedLatestChoice.kt",
+      "bytes": 1393,
+      "sha256": "a9a29e82bc0016e89a97698a92c6af0fde9cd012f94c04c6431eb65136e9d9d9"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PagedWorkoutHistory.kt",
+      "bytes": 1689,
+      "sha256": "63d751ed62fc562ef2acd2b068631be3e28bbfdce1d8f9ebf896253d6fc08d69"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneActivity.kt",
+      "bytes": 48546,
+      "sha256": "a7200c27bf53cba689ebe13493a0ed7aa67f26a0ea19060a90015cc1514b2f9f"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneAutoHistoryService.kt",
+      "bytes": 9721,
+      "sha256": "5018a1826f9c4ef4eac1de1a42a397be17b530cabd8795d3ab79be025e7d0947"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneBluetoothTransport.kt",
+      "bytes": 1531,
+      "sha256": "d568b217330c2c5de3fd0c1c74e7c39ff19f074c2f95c8a21d7ca5d018dde9b7"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneConnectionStore.kt",
+      "bytes": 3143,
+      "sha256": "4c7b45b48175d123fbcda562b9ee78d53b92413d530a8ccdd5ab359280692152"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneHistorySyncControl.kt",
+      "bytes": 371,
+      "sha256": "fc5ed3736dc7ecc4442592b08874b35cccfea43a3f45ea32963af94244ccac7e"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneIdentityCipher.kt",
+      "bytes": 2884,
+      "sha256": "f271fb409b98428bb2db7f88040a0ae17ef5a87fcfa474dcdd730674b18f23f3"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneIdentityStore.kt",
+      "bytes": 2764,
+      "sha256": "664d04bd69ca9a7b1df26fa7064178dd0a89b2a0b15ed2cf17afb6e03a89a9f6"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/PhoneRelayIdentity.kt",
+      "bytes": 1109,
+      "sha256": "332346e852a5ee2b3c122bc26079c8c19db9261cd61f88f0014fbe913994481a"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/RelaySession.kt",
+      "bytes": 3411,
+      "sha256": "8addb8c83c795a252c6a8760a212619a4290f8110ba583be83a2a8bd4705c941"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/RelayTransport.kt",
+      "bytes": 6334,
+      "sha256": "b96ed4f5c202c1fbd971f372b44a8fade9c8d4adc3fa7f975b73b6930d8ab9ae"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/SavedPhoneConnection.kt",
+      "bytes": 1225,
+      "sha256": "51e82124fa76f2a5a307487d5821826e783ec61ea680a17e906a45f606853552"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/VehicleCompanionGuard.kt",
+      "bytes": 2751,
+      "sha256": "92b9a79c4be50bb4bc8fc57e21fc8baf88e11b9a233a149aacf94905399aa8fa"
+    },
+    {
+      "path": "phone/src/main/java/com/example/afterglow/phone/WorkoutRelaySnapshot.kt",
+      "bytes": 1844,
+      "sha256": "c8c6e4656afb9c7bd34d9bda5a89c28deed8dbefd106135e8e35e9abd01b4df3"
+    },
+    {
+      "path": "phone/src/main/res/drawable/ic_afterglow.xml",
+      "bytes": 608,
+      "sha256": "9e4bd8abe45afd5123a8a09d0faa0859c0e1a9dc053bd86948221d060c5d4bc2"
+    },
+    {
+      "path": "phone/src/main/res/values/relay_setup.xml",
+      "bytes": 106,
+      "sha256": "e5f9e19f0fb4356662d1f985d5d6fd1cefe028bd62f75983a8a3c609ab5a34a6"
+    },
+    {
+      "path": "phone/src/main/res/xml/backup_rules.xml",
+      "bytes": 293,
+      "sha256": "2c5c697984f4c52b526337ab61113f5843e0bfc6af4722374916ffe6da38dd9a"
+    },
+    {
+      "path": "phone/src/main/res/xml/data_extraction_rules.xml",
+      "bytes": 630,
+      "sha256": "eda9dddce1e895de1efd716fe75e244187bf8f91a3bb7444c6ea1731e51c74a8"
+    },
+    {
+      "path": "phone/src/release/AndroidManifest.xml",
+      "bytes": 231,
+      "sha256": "164cdd069e536b645f2b15e5f2a2c2834cfb8dc93e1f2fc2599609a13bd8c455"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/BluetoothWireTest.kt",
+      "bytes": 5769,
+      "sha256": "8a58bf467d2b872371ef55271c6366aea1514f7cc1fa973a3fabdd03fbb91e91"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/HeartRateRelaySnapshotTest.kt",
+      "bytes": 1555,
+      "sha256": "5f3b3267795618932291ec497a147d94397ab487658ae4988544f03d08b4d8c0"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/PagedLatestChoiceTest.kt",
+      "bytes": 2825,
+      "sha256": "140e436fc5c08ba21347312c69a7b30a2869d8300b745e18d74ef0b1b6f2472c"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/PagedWorkoutHistoryTest.kt",
+      "bytes": 3125,
+      "sha256": "2e3b15c2eab006553988444cb0c53758bce9f3dbcd59e60174093e3038211bb1"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/PhoneHistoryHandoffTest.kt",
+      "bytes": 1289,
+      "sha256": "175c73b7ba1c7774e61ae015b8f4127bab07db5e655cbccdd2c3dcbe197103ee"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/PhoneIdentityCipherTest.kt",
+      "bytes": 2714,
+      "sha256": "564c7c944fe012ce5fd94540608a83eabfb5f7c380cab61fc91baba884a798f1"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/PhoneIdentityStoreTest.kt",
+      "bytes": 5057,
+      "sha256": "b7c80322632d985ea11900d8588ff7ddaa826468b43dd08e0d1c1a9b255a8687"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/PhoneRelayIdentityTest.kt",
+      "bytes": 2043,
+      "sha256": "3860bddcf51ae6f0a3ab280f714f54d47c442aa2339ab0a0678089004a8fd05f"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/RelaySessionTest.kt",
+      "bytes": 4589,
+      "sha256": "2d1b97c364fecd62cf2d6b68a16f1b7fad36f8aa281a6b829731255ed2e39660"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/RelayTransportTest.kt",
+      "bytes": 8656,
+      "sha256": "fded101c24e2622b6cc35c764247f289b289f2f94718c2b2a709528db15aba83"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/SavedPhoneConnectionTest.kt",
+      "bytes": 1550,
+      "sha256": "26f3d20917301e1a03a6cb00222de77856088121852a23c67d3baa833d9f99d5"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/SecureRelayEndpointTest.kt",
+      "bytes": 1676,
+      "sha256": "e4df191b8a14e4ab4fb1d0aab00d2672f9e79769bda2be72895b683740eb7fe2"
+    },
+    {
+      "path": "phone/src/test/java/com/example/afterglow/phone/WorkoutRelaySnapshotTest.kt",
+      "bytes": 3681,
+      "sha256": "33f1373719e318e2e1642d7f94c33d834e78299315a15c2ac28ab0d6033a7d0f"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "bytes": 746,
+      "sha256": "468d9910ec38b3852786958b2b4350f0879053ccb09722c05b2ee3d62e6e00ce"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/AndroidBluetoothChannel.kt",
+      "bytes": 990,
+      "sha256": "ed1e2d4ecb35728b6f5dc91a7c02d7c5c8af022157abfd926491c4934f57152f"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/BluetoothRelayWire.kt",
+      "bytes": 3008,
+      "sha256": "7e07514c6b35ebea1ff8cb2c8e245846f24ba866c0197a9c49b8dd8314b3cfe7"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/BluetoothRequestClient.kt",
+      "bytes": 2431,
+      "sha256": "e7c0ddbbbdfd3710576baea4c2be040e4f93a5e40925dca1d45912c38bc09496"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/BoundedRelayJson.kt",
+      "bytes": 1292,
+      "sha256": "7e6343cf8647297464ab2304a279b9c08001af4cbfa36f3befd3dbeae5915c80"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/HealthDisplayTime.kt",
+      "bytes": 301,
+      "sha256": "fd4991f54ec0263814d93b3ebef356a898b5a3509ee12d55e228a70b8dc11c62"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/PrivateIpv4.kt",
+      "bytes": 640,
+      "sha256": "a5358ac806e2b3f4f8b29798aea7c245c7bd06ff8ac81dcce1f77c2c01048509"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/RelayTlsSocketFactory.kt",
+      "bytes": 1979,
+      "sha256": "53ef60eb48a201ab631b26356907d62816fd41632799d0fdce7aa6ed9a7e5b48"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/SecureRelayEndpoint.kt",
+      "bytes": 1368,
+      "sha256": "6fcabeef3e31af54c766d4acbaf7c43d13ac7fbf8fd8ebcf6e087a15cf3635fe"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/WatchActivityRecord.kt",
+      "bytes": 3029,
+      "sha256": "8510ed444b5859d711002eaa80f425817549cd56f12790936cd6bb45021d2559"
+    },
+    {
+      "path": "shared/src/main/kotlin/com/example/afterglow/net/WorkoutHistorySnapshot.kt",
+      "bytes": 3775,
+      "sha256": "72ceb161b1236f232c917d2d62fd122ec86eba1814a36ac5c23da3bddae700a8"
+    },
+    {
+      "path": "shared/test-data/private-ipv4-cases.json",
+      "bytes": 1970,
+      "sha256": "ad1670442c58f79d0a3f57794ec02537e64a813f034effd6dc37b752c1ef8b41"
+    },
+    {
+      "path": "shared/test-data/update-endpoint-cases.json",
+      "bytes": 1919,
+      "sha256": "1ada91e9ec5e1f03d985d292e401b485b7a16fddfbb6417212a9be922c6ec34f"
+    },
+    {
+      "path": "submission/market-listing.json",
+      "bytes": 750,
+      "sha256": "7925f00b6b02883b94feb51769ed55b3d8d3ebe9f1a4a804026efa2ff3fef76e"
+    },
+    {
+      "path": "tools/hold-console.ps1",
+      "bytes": 694,
+      "sha256": "af73d10999ed9880e5236ee78d66bee59fcaa3b5f9b4dec938fd24880e6a7abd"
+    },
+    {
+      "path": "tools/sign-release.ps1",
+      "bytes": 1378,
+      "sha256": "37c0ef7fe17c75aa91a7e0069479eb5869608ac703226a5f40fe40bd4b04e631"
+    },
+    {
+      "path": "wear/build.gradle.kts",
+      "bytes": 674,
+      "sha256": "2201bb9550afcf6e9387665e099519d5559ab024588e2cdbf8e12202e19561e9"
+    },
+    {
+      "path": "wear/src/debug/res/values/relay_setup.xml",
+      "bytes": 178,
+      "sha256": "096838db88317c9eacc94278515cf1c2a3dc6ccedf124cb08df462495b427a97"
+    },
+    {
+      "path": "wear/src/main/AndroidManifest.xml",
+      "bytes": 1718,
+      "sha256": "ee0a6a67054f29559d34865bb0d0d7dcceb7c9bc07d24301a3f9ab85572f2dd7"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/HeartRateTransport.kt",
+      "bytes": 5154,
+      "sha256": "d0e0173037f986835a4913d12d0497e3d20b4c1f171fe415054bfba6aff2d4f1"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/LiveMeasurementService.kt",
+      "bytes": 6220,
+      "sha256": "7e5bbdbefad9f5c63cde2505c5218dcf8fe43f63a61f63cde91c853db7483f35"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/MeasurementSession.kt",
+      "bytes": 4357,
+      "sha256": "1ff747df2bd440efbe42b5feb39cf46395c24040f6b87d0dcf6f414372ed23bf"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/WalkingObservation.kt",
+      "bytes": 2131,
+      "sha256": "4efb72d7f811c971938a5b3aeb24c5e3e13393e6fc21c697d2fbfe775c6264e1"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/WalkingPanel.kt",
+      "bytes": 6518,
+      "sha256": "52af598e0a548efca3db30dd21e4b6546d81e44b842eb3b253eb04a6d052273d"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/WatchActivity.kt",
+      "bytes": 9066,
+      "sha256": "cff819729adee5f88ef715f39366651f25961c8f8d785a21f11e5a4433b096bb"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/WatchDirectActivity.kt",
+      "bytes": 11145,
+      "sha256": "658d4599fa4c1dccda4756044aaa0193f696e3e7d3da7c92c3ce5c7909351fc1"
+    },
+    {
+      "path": "wear/src/main/java/com/example/afterglow/wear/WatchWifiLink.kt",
+      "bytes": 1718,
+      "sha256": "d5ec22aed3eeddd947dc544db7ba77e064c0e5d36ed87f6e25a5563f61cc08c3"
+    },
+    {
+      "path": "wear/src/main/res/drawable/ic_afterglow.xml",
+      "bytes": 608,
+      "sha256": "9e4bd8abe45afd5123a8a09d0faa0859c0e1a9dc053bd86948221d060c5d4bc2"
+    },
+    {
+      "path": "wear/src/main/res/values/relay_setup.xml",
+      "bytes": 110,
+      "sha256": "46c11e05d4270b8a6665f451a599949662f9666523f07b491032f68b48f38103"
+    },
+    {
+      "path": "wear/src/release/AndroidManifest.xml",
+      "bytes": 231,
+      "sha256": "164cdd069e536b645f2b15e5f2a2c2834cfb8dc93e1f2fc2599609a13bd8c455"
+    },
+    {
+      "path": "wear/src/test/java/com/example/afterglow/wear/HeartRateTransportTest.kt",
+      "bytes": 7408,
+      "sha256": "c10a64d6aef97bafc037de5e0db53cd115d92c459bd6a84fdec19652ca23132a"
+    },
+    {
+      "path": "wear/src/test/java/com/example/afterglow/wear/MeasurementSessionTest.kt",
+      "bytes": 6426,
+      "sha256": "4d9514d2d73fc7ffb9f973c9bc3116812557eba7cd7e150371d08fcd4cd76132"
+    },
+    {
+      "path": "wear/src/test/java/com/example/afterglow/wear/WalkingObservationTest.kt",
+      "bytes": 2711,
+      "sha256": "d16e27c944ee3cb3ac7ce8c106059d596b02f5417ba38724a8d840f09c7433e5"
+    }
+  ]
+}

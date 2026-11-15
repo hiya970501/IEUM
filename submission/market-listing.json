@@ -1,0 +1,15 @@
+{
+  "applicationId": "com.example.version1",
+  "englishTitle": "IEUM",
+  "koreanTitle": "이음",
+  "versionName": "1.4.0",
+  "versionCode": 15,
+  "tags": ["IEUM", "이음", "차량 개인화"],
+  "marketCategory": "Mobility Services",
+  "androidCategory": "productivity",
+  "oneLineIntroduction": "운전자의 선호와 허용된 상태 정보를 바탕으로 공조·시트·핸들 열선·미디어를 맞추는 Pleos Connect 차량 개인화 앱",
+  "marketRegistrationCompleted": false,
+  "categoryApprovalCompleted": false,
+  "tagPolicySource": "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-tagging-guide",
+  "categoryPolicySource": "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/app-category"
+}

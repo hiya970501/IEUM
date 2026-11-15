@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "title": "개발 환경",
+    "target": "API28+ / Gradle8+ / Pleos2.1.0 Cold boot",
+    "status": "충족",
+    "current": "min28·Gradle9.6·API34/Pleos2.1.0. 최종 빌드·344개 단위 검사 통과.",
+    "next": "버전 고정과 신규 설치 절차를 유지하고 실차 환경을 추가한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/getting-started/application-development/setup-connect-sdk-emulator"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "주의 분산",
+    "target": "운전자 주의 분산 행동 제한",
+    "status": "부분",
+    "current": "D·20km/h에서 설정 닫힘·조작 차단 확인. 앱 자체 안내가 OEM 화면에 가려질 수 있다.",
+    "next": "OEM 차단을 유지하고 운전 중 정보 노출·카테고리별 허용 범위를 실차로 검증한다.",
+    "urls": [
+      "https://source.android.com/docs/automotive/driver_distraction/guidelines?hl=ko"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "UX 제한",
+    "target": "UX 제한·불명 상태에서 차단",
+    "status": "충족",
+    "current": "CarUxRestrictions·안전 상태 게이트와 미확인 차단 회귀 통과. 현재 에뮬레이터 범위다.",
+    "next": "연결 손실·차종별 UX 플래그를 회귀 목록에 추가한다.",
+    "urls": [
+      "https://source.android.com/docs/automotive/driver_distraction/car_uxr?hl=ko"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "운전 상태",
+    "target": "기어·UX·전경 상태 함께 검사",
+    "status": "충족",
+    "current": "공조 적용/복원·모드·화면 생명주기 회귀 통과. 주행 시험 후 P·0km/h 복원.",
+    "next": "실차 전원 전환·통화·빠른 재생성·지연 콜백을 확대 검증한다.",
+    "urls": [
+      "https://source.android.com/docs/automotive/driver_distraction/consume?hl=ko"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "저장 동작",
+    "target": "불필요한 쓰기·플래시 소모 억제",
+    "status": "부분",
+    "current": "요약 저장·중복 억제·원자적 저장/롤백 보호 구현. 장기 플래시 쓰기량 계측은 없다.",
+    "next": "24시간 쓰기 바이트·횟수를 계측하고 변경분 배치·기간 정리 정책을 검증한다.",
+    "urls": [
+      "https://source.android.com/docs/automotive/flash-wear?hl=ko"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "지역 규제",
+    "target": "지역별 주행 정책 준수",
+    "status": "외부 확인",
+    "current": "플랫폼 제한을 임의 해제하지 않는다. 국가별 실제 규제 적합성 심사는 미완료다.",
+    "next": "출시 지역·OEM별 허용 동작 표와 실차 시험을 확보한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/driving-restiction-policy"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "앱 카테고리",
+    "target": "적합한 카테고리로 등록",
+    "status": "외부 확인",
+    "current": "Mobility Services 제안 초안. Android productivity와 구분. 마켓 승인 미완료.",
+    "next": "차량 개인화 범위로 App Market 카테고리 심사를 진행한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/app-category"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "구조·실행",
+    "target": "창·전경·상태 전환 대응",
+    "status": "충족",
+    "current": "메인 화면·내부 패널·IME·투영·GPS 회귀와 네이티브 정리 확인.",
+    "next": "반복 다중 창·메모리 압박·복귀와 장시간 저장 경합을 추가한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/app-structure-screen-model"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "하드웨어 접근",
+    "target": "공식 API·허용된 권한만 사용",
+    "status": "충족",
+    "current": "차량 제어는 Pleos 공개 SDK를 사용하고 capability 확인 뒤 제어한다.",
+    "next": "실차 권한 목록과 지원 좌석/기능을 차종별로 재검증한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/platform-api-architecture"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "SDK 정책",
+    "target": "공개 SDK·필요 API 사용",
+    "status": "충족",
+    "current": "Vehicle2.3.2 사용. 숨겨진 VHAL 쓰기나 OEM 전용 권한을 추가하지 않았다.",
+    "next": "플랫폼 SDK 업데이트 때 지원/미지원 API 계약을 다시 검사한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/pleos-connect-sdk-api"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "호환·가용성",
+    "target": "미지원과 미수신을 구분",
+    "status": "부분",
+    "current": "지원 확인·타임아웃·미확인 처리를 구현. API28~37/실차 전체 조합은 미검증.",
+    "next": "OS·SDK·차종별 지원표와 API28 최소 버전 실기기 검사를 추가한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/api-compatibility-availability"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "개인정보",
+    "target": "동의·최소화·암호화·삭제",
+    "status": "부분",
+    "current": "최종 개인정보 15건 통과. 프로필 격리·철회·건강 표본과 연결 상태 분리 구현.",
+    "next": "운영 TLS·실폰 철회/삭제·계정 전환·서버 보존 정책을 E2E로 확인한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/security-privacy"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "자원 효율",
+    "target": "RAM≤400MB / 정차CPU≤25% / 주행<5%",
+    "status": "미충족",
+    "current": "현재 계측 HWM 272.92MB. 정차 초기 평균 33.73%·최대 73.55%로 초과. 주행 최대 1.74% 통과.",
+    "next": "SDK 메타데이터 준비·3D 파싱/엔진 초기화·중복 작업을 분리 추적한다. RAM을 유지하면서 초기 CPU 피크를 낮추고 동일 조건 재측정한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/performance-resource-mgmt"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "즉각 반응",
+    "target": "입력 응답≤250ms",
+    "status": "미충족",
+    "current": "12회 내부 반영 최대98ms. 별도 접근성 확인 최대265ms로 15ms 초과. 물리 화면 출력 시점은 미검증.",
+    "next": "DOWN→처리→프레임→접근성 게시를 분리한다. 반복 입력·저장 안내·대형 글자 조건에서도 250ms 이내인지 같은 게이트로 재검증한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/Introduction/intro"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "색상·대비",
+    "target": "텍스트·아이콘 대비≥4.5:1",
+    "status": "부분",
+    "current": "야간 텍스트 280건 최저7.73:1. 복잡한 3D·이미지 전체 픽셀과 실물 패널은 미검증.",
+    "next": "모든 선택·오류·보안·주야간 상태의 대비와 실차 화면을 검사한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/foundations/colors"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "글자 크기",
+    "target": "중요≥5mm / 보조≥3mm",
+    "status": "부분",
+    "current": "야간 최소 글자 잉크19px(160dpi 명목 약3.0mm). 실제 패널 물리 크기·시거리 검증은 없다.",
+    "next": "OEM 패널에서 mm·시거리 실측 후 중요 문구·보조 문구별 최소 크기를 조정한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/foundations/typography"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "아이콘",
+    "target": "형태·크기·여백·인지",
+    "status": "부분",
+    "current": "IEUM adaptive 아이콘·동작 라벨 적용. 런처 마스크/실차 시거리 인지는 미검증.",
+    "next": "여러 런처 마스크와 실제 차량 시거리에서 아이콘 판독을 평가한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/foundations/contents-creation/iconography"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "레이아웃",
+    "target": "여러 창 크기·주야간 대응",
+    "status": "부분",
+    "current": "최종 기본 화면·야간 검사 통과. 큰 글자·좁은 창·우핸들 전체 행렬은 이전판 이력이며 이번 APK로 전량 재검증하지 않았다.",
+    "next": "최종 release로 창 크기·font1.3·주야간·LHD/RHD 교차 행렬을 반복 검증한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/getting-started/layout"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Spinner",
+    "target": "스피너 사용 시 공식 규칙",
+    "status": "해당 없음",
+    "current": "선택용 Spinner를 사용하지 않는다. 진행 표시와는 다른 컴포넌트다.",
+    "next": "도입할 때 규칙을 적용한다. 준수 항목을 늘리려고 기능을 추가하지 않는다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/spinner"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "선택 메뉴",
+    "target": "선택·미선택·비활성 명확",
+    "status": "충족",
+    "current": "모드 녹색/회색·선택 상태와 저장 중 비활성화 회귀 통과.",
+    "next": "반복 입력·접근성 포커스·지연 결과 조건을 확장한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/segmented-menu"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "팝업",
+    "target": "명확한 제목·동작·IME 대응",
+    "status": "충족",
+    "current": "메뉴·IME·투영·주행 전환 시 창 닫힘 회귀 통과.",
+    "next": "실차 입력기·권한창 경합·대형 글자·연속 뒤로 가기를 추가한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/popups/system-popup"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Toast·안내",
+    "target": "명확한 상태·반복 알림 억제",
+    "status": "충족",
+    "current": "필수 상태는 지속 문구로 표시. 성공·대기·권한·오류를 구분한다.",
+    "next": "실차 오류 폭주와 복귀 때 안내 중복·가림을 검사한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/popups/toast-popup"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "앱 태그",
+    "target": "공식 영문 앱명 태그",
+    "status": "부분",
+    "current": "IEUM 태그·버전 일치 빌드 검사 통과. 실제 마켓 태그 등록은 안 됐다.",
+    "next": "제출 메타데이터를 유지하고 App Market 등록 시 승인 결과를 반영한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-tagging-guide"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "업데이트",
+    "target": "최신 확인·HTTPS·마켓 이동",
+    "status": "미충족",
+    "current": "업데이트 검사·URL 검증 코드는 있으나 운영 HTTPS 메타데이터 주소와 마켓 배포가 없다.",
+    "next": "발행 서버·마켓 URL을 마련하고 같은 서명/더 높은 코드로 실제 갱신 E2E를 한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-update-guide"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "버전 관리",
+    "target": "버전명·코드·동일 서명 관리",
+    "status": "충족",
+    "current": "차량1.4.0/code15와 메타데이터 일치. IEUM 전용 서명 생성·검증.",
+    "next": "키를 비공개 보관하고 2차 배포는 같은 키와 code16 이상을 사용한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-version-management-policy"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "앱 보안",
+    "target": "TLS·입력·서명·디버깅 차단",
+    "status": "부분",
+    "current": "release 서명·manifest 격리·모델 출처 핀 검증. 네이티브20개 RELRO/NX/16KB 정렬 통과. 운영 전체 보안 검증은 미완료.",
+    "next": "운영 서비스 TLS·권한·공격 입력·의존성 취약점 검토와 실차 보안 검증을 완료한다.",
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-security-guide"
+    ]
+  }
+]

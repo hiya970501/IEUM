@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "requirements": [
+      "Minimum Android SDK 버전: Android API 28 이상",
+      "Gradle 버전: 8.0 이상",
+      "개발 언어: Java, Kotlin",
+      "Pleos Connect Emulator: 2.1.0 버전",
+      "Pleos Connect Virtual Console: Emualtor 최소 2.1.0 버전 필요",
+      "Pleos Connect Emulator 설치 후 AVD 디바이스를 추가할 때 Boot options를 반드시 cold boot로 설정"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/getting-started/application-development/setup-connect-sdk-emulator"
+    ]
+  },
+  {
+    "id": 2,
+    "requirements": [
+      "주행 안전을 고려한 설계",
+      "(운전자 주의 분산 행동 가이드라인 준수)"
+    ],
+    "urls": [
+      "https://source.android.com/docs/automotive/driver_distraction/guidelines?hl=ko"
+    ]
+  },
+  {
+    "id": 3,
+    "requirements": [
+      "자동차 사용자 환경 제한"
+    ],
+    "urls": [
+      "https://source.android.com/docs/automotive/driver_distraction/car_uxr?hl=ko"
+    ]
+  },
+  {
+    "id": 4,
+    "requirements": [
+      "자동차 운전 상태 및 UX 제한 사용"
+    ],
+    "urls": [
+      "https://source.android.com/docs/automotive/driver_distraction/consume?hl=ko"
+    ]
+  },
+  {
+    "id": 5,
+    "requirements": [
+      "메모리 동작 (참고)"
+    ],
+    "urls": [
+      "https://source.android.com/docs/automotive/flash-wear?hl=ko"
+    ]
+  },
+  {
+    "id": 6,
+    "requirements": [
+      "지역별 주행 규제 정책"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/driving-restiction-policy"
+    ]
+  },
+  {
+    "id": 7,
+    "requirements": [
+      "앱 카테고리 준수 규칙"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/app-category"
+    ]
+  },
+  {
+    "id": 8,
+    "requirements": [
+      "앱 구조 및 동작 모델"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/app-structure-screen-model"
+    ]
+  },
+  {
+    "id": 9,
+    "requirements": [
+      "하드웨어 접근 정책 (중요)"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/platform-api-architecture"
+    ]
+  },
+  {
+    "id": 10,
+    "requirements": [
+      "SDK API 정책"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/pleos-connect-sdk-api"
+    ]
+  },
+  {
+    "id": 11,
+    "requirements": [
+      "API 호환성 및 가용성"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/api-compatibility-availability"
+    ]
+  },
+  {
+    "id": 12,
+    "requirements": [
+      "보안 및 개인정보를 준수한 설계 방법"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/security-privacy"
+    ]
+  },
+  {
+    "id": 13,
+    "requirements": [
+      "성능 및 리소스 효율을 고려한 설계 방법"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/vehicle-app-planning-guide/performance-resource-mgmt"
+    ]
+  },
+  {
+    "id": 14,
+    "requirements": [
+      "Pleos Connect UI 디자인 설계 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/Introduction/intro"
+    ]
+  },
+  {
+    "id": 15,
+    "requirements": [
+      "색상 및 대비 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/foundations/colors"
+    ]
+  },
+  {
+    "id": 16,
+    "requirements": [
+      "글자 사이즈 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/foundations/typography"
+    ]
+  },
+  {
+    "id": 17,
+    "requirements": [
+      "아이콘 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/foundations/contents-creation/iconography"
+    ]
+  },
+  {
+    "id": 18,
+    "requirements": [
+      "확장성 고려한 디스플레이 레이아웃 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/getting-started/layout"
+    ]
+  },
+  {
+    "id": 19,
+    "requirements": [
+      "스피너 방식 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/spinner"
+    ]
+  },
+  {
+    "id": 20,
+    "requirements": [
+      "선택 메뉴 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/segmented-menu"
+    ]
+  },
+  {
+    "id": 21,
+    "requirements": [
+      "시스템 팝업 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/popups/system-popup"
+    ]
+  },
+  {
+    "id": 22,
+    "requirements": [
+      "토스트 팝업 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/connect/guide/docs-design/components/popups/toast-popup"
+    ]
+  },
+  {
+    "id": 23,
+    "requirements": [
+      "앱 태그 표기 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-tagging-guide"
+    ]
+  },
+  {
+    "id": 24,
+    "requirements": [
+      "앱 업데이트 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-update-guide"
+    ]
+  },
+  {
+    "id": 25,
+    "requirements": [
+      "앱 버전 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-version-management-policy"
+    ]
+  },
+  {
+    "id": 26,
+    "requirements": [
+      "앱 보안 가이드"
+    ],
+    "urls": [
+      "https://document.pleos.ai/docs/pleos-only/app-registration-guide/app-security-guide"
+    ]
+  }
+]

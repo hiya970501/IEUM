@@ -1,0 +1,17 @@
+Afterglow concept cabin
+
+Base model: Modern Car Interior, Grab3D
+https://grab3d.com/models/vehicles/modern-car-interior/
+https://grab3d.com/dl/modern-car-interior/modern-car-interior.glb
+License: CC0-1.0; see cabin-LICENSE.txt.
+This is an unbranded concept interior, not Hyundai IONIQ CAD or vehicle scan data.
+Afterglow modifications: charcoal / warm-stone palette and separate directional
+setting illustration meshes and animated particles. These are not a CFD solver,
+duct velocity measurements, seat temperature measurements or a humidity sensor.
+The original mesh, PBR normal and roughness maps are retained.
+
+Rendering: Google Filament 1.75.0 (Apache-2.0).
+Bundled indirect studio light: Google Filament helmet/default_env asset.
+https://google.github.io/filament/web/assets/helmet/default_env/default_env_ibl.ktx
+https://github.com/google/filament
+Copyright Google LLC. See filament-LICENSE.txt.
