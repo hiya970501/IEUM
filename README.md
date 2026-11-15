@@ -34,3 +34,4 @@ adb -s emulator-5554 shell am start --user 10 -n com.example.version1/.MainActiv
 ## APK 파일 위치
 
 - [apk/IEUM_IEUM_release.apk](apk/IEUM_IEUM_release.apk)
+- [GitHub Release: IEUM 1.4.0](https://github.com/hiya970501/IEUM/releases/tag/v1.4.0)
