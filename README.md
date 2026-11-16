@@ -19,7 +19,7 @@ adb -s emulator-5554 shell am start --user 10 -n com.example.version1/.MainActiv
 
 ## 테스트 환경 및 필요한 설정
 
-- **환경:** Windows, Android 14(API 34) / x86_64, Pleos Vehicle SDK 2.3.2.
+- **환경:** Windows OS, Android 14(API 34) 이상 / x86_64, Pleos Vehicle SDK 2.3.2.
 - **차량 제어:** P단·정차 상태, HVAC 활성화, Vehicle Virtual Console 세션 및 차량 SDK 연결.
 - **워치 데이터:** 전송 기기와 차량의 연결 승인 및 건강 데이터 전달 동의. Health Connect를 사용하는 휴대폰은 운동 기록 읽기 권한 허용.
 - **날씨:** 에뮬레이터 위치 설정, 앱 위치 권한 및 인터넷 연결.
